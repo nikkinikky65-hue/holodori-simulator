@@ -1,0 +1,3691 @@
+{
+  "format": "holodori-leader-catalog-v1",
+  "dataset": {
+    "publicVersion": "public-3e16356b1b44e673b760"
+  },
+  "cardSkills": [
+    {
+      "skillId": "l158",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のセンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0164"
+    },
+    {
+      "skillId": "l089",
+      "costumeName": "ブルーグラデーション",
+      "name": null,
+      "description": "0期生が2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "0期生が2人以上",
+            "targetText": "全員",
+            "description": "0期生が2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0016"
+    },
+    {
+      "skillId": "l084",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員の全パラメータが35%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 35,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが35%UP"
+          }
+        ]
+      },
+      "cardId": "c0074"
+    },
+    {
+      "skillId": "l192",
+      "costumeName": "ホロスーツ-VHPR",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 130,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0096"
+    },
+    {
+      "skillId": "l161",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員の全パラメータが35%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 35,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが35%UP"
+          }
+        ]
+      },
+      "cardId": "c0073"
+    },
+    {
+      "skillId": "l104",
+      "costumeName": "ビウィッチングカーム",
+      "name": null,
+      "description": "全員のセンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0142"
+    },
+    {
+      "skillId": "l020",
+      "costumeName": "プリズムセンシュアル",
+      "name": null,
+      "description": "1期生が2人以上で全員のテクニックが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 135,
+            "conditionText": "1期生が2人以上",
+            "targetText": "全員",
+            "description": "1期生が2人以上で全員のテクニックが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0130"
+    },
+    {
+      "skillId": "l101",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "1期生が2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "1期生が2人以上",
+            "targetText": "全員",
+            "description": "1期生が2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0156"
+    },
+    {
+      "skillId": "l180",
+      "costumeName": "ハートフルリボンピース",
+      "name": null,
+      "description": "全員のテクニックが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0108"
+    },
+    {
+      "skillId": "l050",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のテクニックが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0187"
+    },
+    {
+      "skillId": "l023",
+      "costumeName": "咲きかをる金木犀",
+      "name": null,
+      "description": "1期生が2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "1期生が2人以上",
+            "targetText": "全員",
+            "description": "1期生が2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0180"
+    },
+    {
+      "skillId": "l135",
+      "costumeName": "1UPスポーティ",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 130,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0070"
+    },
+    {
+      "skillId": "l040",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員の全パラメータが35%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 35,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが35%UP"
+          }
+        ]
+      },
+      "cardId": "c0085"
+    },
+    {
+      "skillId": "l198",
+      "costumeName": "スライ＆プリティ",
+      "name": null,
+      "description": "全員のパフォーマンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0200"
+    },
+    {
+      "skillId": "l152",
+      "costumeName": "なりきりもふもふウルフ",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 130,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0090"
+    },
+    {
+      "skillId": "l035",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "2期生が2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "2期生が2人以上",
+            "targetText": "全員",
+            "description": "2期生が2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0102"
+    },
+    {
+      "skillId": "l191",
+      "costumeName": "百鬼彼岸花",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0047"
+    },
+    {
+      "skillId": "l090",
+      "costumeName": "常夏Lycoris",
+      "name": null,
+      "description": "2期生が2人以上で全員のテクニックが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 135,
+            "conditionText": "2期生が2人以上",
+            "targetText": "全員",
+            "description": "2期生が2人以上で全員のテクニックが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0194"
+    },
+    {
+      "skillId": "l026",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のテクニックが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0124"
+    },
+    {
+      "skillId": "l174",
+      "costumeName": "コケットテンプテーション",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 30,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0042"
+    },
+    {
+      "skillId": "l034",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のセンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0056"
+    },
+    {
+      "skillId": "l064",
+      "costumeName": "ダックホップ！",
+      "name": null,
+      "description": "2期生が2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "2期生が2人以上",
+            "targetText": "全員",
+            "description": "2期生が2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0196"
+    },
+    {
+      "skillId": "l169",
+      "costumeName": "the longing sun",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0025"
+    },
+    {
+      "skillId": "l051",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "0期生が2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "0期生が2人以上",
+            "targetText": "全員",
+            "description": "0期生が2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0061"
+    },
+    {
+      "skillId": "l106",
+      "costumeName": "グレイスフルフレグランス",
+      "name": null,
+      "description": "全員のセンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0160"
+    },
+    {
+      "skillId": "l022",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のパフォーマンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0136"
+    },
+    {
+      "skillId": "l098",
+      "costumeName": "嫋美紅椿",
+      "name": null,
+      "description": "ゲーマーズが2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "ゲーマーズが2人以上",
+            "targetText": "全員",
+            "description": "ゲーマーズが2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0052"
+    },
+    {
+      "skillId": "l099",
+      "costumeName": "渚のHIGH SCORE",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 130,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0127"
+    },
+    {
+      "skillId": "l102",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のテクニックが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0054"
+    },
+    {
+      "skillId": "l121",
+      "costumeName": "桜花爛漫",
+      "name": null,
+      "description": "全員のセンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0166"
+    },
+    {
+      "skillId": "l071",
+      "costumeName": "トロピカルスマイル",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 80,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0138"
+    },
+    {
+      "skillId": "l188",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のパフォーマンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0081"
+    },
+    {
+      "skillId": "l013",
+      "costumeName": "フリーダムメイドキャット",
+      "name": null,
+      "description": "全員のテクニックが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0171"
+    },
+    {
+      "skillId": "l044",
+      "costumeName": "潮風のキャットウォーク",
+      "name": null,
+      "description": "ゲーマーズが2人以上で全員のパフォーマンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 135,
+            "conditionText": "ゲーマーズが2人以上",
+            "targetText": "全員",
+            "description": "ゲーマーズが2人以上で全員のパフォーマンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0050"
+    },
+    {
+      "skillId": "l155",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "ゲーマーズが2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "ゲーマーズが2人以上",
+            "targetText": "全員",
+            "description": "ゲーマーズが2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0066"
+    },
+    {
+      "skillId": "l196",
+      "costumeName": "ワンワンベイカーズ",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 130,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0175"
+    },
+    {
+      "skillId": "l032",
+      "costumeName": "しましまインパクト",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 80,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0089"
+    },
+    {
+      "skillId": "l058",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員の全パラメータが35%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 35,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが35%UP"
+          }
+        ]
+      },
+      "cardId": "c0162"
+    },
+    {
+      "skillId": "l049",
+      "costumeName": "スターリーナイト",
+      "name": null,
+      "description": "全員のテクニックが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0110"
+    },
+    {
+      "skillId": "l080",
+      "costumeName": "オーシャンノーツ",
+      "name": null,
+      "description": "0期生が2人以上で全員のセンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 135,
+            "conditionText": "0期生が2人以上",
+            "targetText": "全員",
+            "description": "0期生が2人以上で全員のセンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0039"
+    },
+    {
+      "skillId": "l048",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のセンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0058"
+    },
+    {
+      "skillId": "l008",
+      "costumeName": "ラスカルバニー",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 30,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0121"
+    },
+    {
+      "skillId": "l148",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが20%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 20,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが20%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0174"
+    },
+    {
+      "skillId": "l037",
+      "costumeName": "アズールリボンスタイル",
+      "name": null,
+      "description": "全員のパフォーマンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0163"
+    },
+    {
+      "skillId": "l016",
+      "costumeName": "you're my sunflower",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のテクニックが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 80,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のテクニックが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0019"
+    },
+    {
+      "skillId": "l041",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "3期生が2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "3期生が2人以上",
+            "targetText": "全員",
+            "description": "3期生が2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0169"
+    },
+    {
+      "skillId": "l111",
+      "costumeName": "エルブランシュ",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0153"
+    },
+    {
+      "skillId": "l154",
+      "costumeName": "ソレイユキス",
+      "name": null,
+      "description": "3期生が2人以上で全員のパフォーマンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 135,
+            "conditionText": "3期生が2人以上",
+            "targetText": "全員",
+            "description": "3期生が2人以上で全員のパフォーマンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0083"
+    },
+    {
+      "skillId": "l072",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のセンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0097"
+    },
+    {
+      "skillId": "l183",
+      "costumeName": "クリムゾンキャプテン",
+      "name": null,
+      "description": "3期生が2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "3期生が2人以上",
+            "targetText": "全員",
+            "description": "3期生が2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0165"
+    },
+    {
+      "skillId": "l194",
+      "costumeName": "ディープネスマリナー",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 80,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0198"
+    },
+    {
+      "skillId": "l029",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のテクニックが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0086"
+    },
+    {
+      "skillId": "l139",
+      "costumeName": "フラッフィーシープ",
+      "name": null,
+      "description": "全員の全パラメータが45%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 45,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが45%UP"
+          }
+        ]
+      },
+      "cardId": "c0088"
+    },
+    {
+      "skillId": "l002",
+      "costumeName": "スマイリーソル",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 80,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0041"
+    },
+    {
+      "skillId": "l047",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のパフォーマンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0024"
+    },
+    {
+      "skillId": "l118",
+      "costumeName": "タクティカルリトルデビル",
+      "name": null,
+      "description": "4期生が2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "4期生が2人以上",
+            "targetText": "全員",
+            "description": "4期生が2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0161"
+    },
+    {
+      "skillId": "l027",
+      "costumeName": "サンセットホライゾン",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが80%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 80,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0023"
+    },
+    {
+      "skillId": "l093",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "4期生が2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "4期生が2人以上",
+            "targetText": "全員",
+            "description": "4期生が2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0117"
+    },
+    {
+      "skillId": "l077",
+      "costumeName": "クラウンドルナ",
+      "name": null,
+      "description": "全員のテクニックが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0147"
+    },
+    {
+      "skillId": "l119",
+      "costumeName": "プリンセスサニードット",
+      "name": null,
+      "description": "4期生が2人以上で全員のパフォーマンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 135,
+            "conditionText": "4期生が2人以上",
+            "targetText": "全員",
+            "description": "4期生が2人以上で全員のパフォーマンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0150"
+    },
+    {
+      "skillId": "l184",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のテクニックが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0137"
+    },
+    {
+      "skillId": "l150",
+      "costumeName": "フロストフラワーズ",
+      "name": null,
+      "description": "5期生が2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "5期生が2人以上",
+            "targetText": "全員",
+            "description": "5期生が2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0045"
+    },
+    {
+      "skillId": "l001",
+      "costumeName": "キューティーブルーハワイ",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0034"
+    },
+    {
+      "skillId": "l175",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "5期生が2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "5期生が2人以上",
+            "targetText": "全員",
+            "description": "5期生が2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0067"
+    },
+    {
+      "skillId": "l177",
+      "costumeName": "アップビートガーデン",
+      "name": null,
+      "description": "全員のパフォーマンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0002"
+    },
+    {
+      "skillId": "l164",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のテクニックが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0111"
+    },
+    {
+      "skillId": "l007",
+      "costumeName": "WHライオンコマンダー",
+      "name": null,
+      "description": "全員の全パラメータが45%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 45,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが45%UP"
+          }
+        ]
+      },
+      "cardId": "c0188"
+    },
+    {
+      "skillId": "l103",
+      "costumeName": "ワイルドサンシャイン",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 80,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0059"
+    },
+    {
+      "skillId": "l010",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のパフォーマンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0109"
+    },
+    {
+      "skillId": "l028",
+      "costumeName": "エンジョイリングマスター",
+      "name": null,
+      "description": "全員の全パラメータが45%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 45,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが45%UP"
+          }
+        ]
+      },
+      "cardId": "c0092"
+    },
+    {
+      "skillId": "l112",
+      "costumeName": "バイブラントアニマル",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 80,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0009"
+    },
+    {
+      "skillId": "l024",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のパフォーマンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0078"
+    },
+    {
+      "skillId": "l075",
+      "costumeName": "パープルドミネイション",
+      "name": null,
+      "description": "holoXが2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "holoXが2人以上",
+            "targetText": "全員",
+            "description": "holoXが2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0007"
+    },
+    {
+      "skillId": "l143",
+      "costumeName": "スウィートスパイス",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 80,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0006"
+    },
+    {
+      "skillId": "l133",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のスコアサポート効果50%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 50,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果50%"
+          }
+        ]
+      },
+      "cardId": "c0069"
+    },
+    {
+      "skillId": "l079",
+      "costumeName": "The holoX officer",
+      "name": null,
+      "description": "全員の全パラメータが45%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 45,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが45%UP"
+          }
+        ]
+      },
+      "cardId": "c0151"
+    },
+    {
+      "skillId": "l094",
+      "costumeName": "シーサイドエレガント",
+      "name": null,
+      "description": "holoXが2人以上で全員のセンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 135,
+            "conditionText": "holoXが2人以上",
+            "targetText": "全員",
+            "description": "holoXが2人以上で全員のセンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0095"
+    },
+    {
+      "skillId": "l083",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のパフォーマンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0018"
+    },
+    {
+      "skillId": "l185",
+      "costumeName": "ファシネイトラボ",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 30,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0131"
+    },
+    {
+      "skillId": "l115",
+      "costumeName": "ビーチサイドジオメトリー",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0079"
+    },
+    {
+      "skillId": "l003",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "holoXが2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "holoXが2人以上",
+            "targetText": "全員",
+            "description": "holoXが2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0043"
+    },
+    {
+      "skillId": "l176",
+      "costumeName": "里を駆ける牡丹",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 130,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0020"
+    },
+    {
+      "skillId": "l149",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員の全パラメータが35%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 35,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが35%UP"
+          }
+        ]
+      },
+      "cardId": "c0093"
+    },
+    {
+      "skillId": "l055",
+      "costumeName": "マジカルフォレスト",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 130,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のテクニックが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0053"
+    },
+    {
+      "skillId": "l086",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のパフォーマンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0048"
+    },
+    {
+      "skillId": "l012",
+      "costumeName": "スタニングムーンライト",
+      "name": null,
+      "description": "ID1期生が2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "ID1期生が2人以上",
+            "targetText": "全員",
+            "description": "ID1期生が2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0139"
+    },
+    {
+      "skillId": "l113",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "ID1期生が2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "ID1期生が2人以上",
+            "targetText": "全員",
+            "description": "ID1期生が2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0038"
+    },
+    {
+      "skillId": "l063",
+      "costumeName": "キャンバスエモーション",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 130,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0133"
+    },
+    {
+      "skillId": "l069",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のパフォーマンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0143"
+    },
+    {
+      "skillId": "l181",
+      "costumeName": "アンデッドパッチワーク",
+      "name": null,
+      "description": "全員の全パラメータが45%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 45,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが45%UP"
+          }
+        ]
+      },
+      "cardId": "c0003"
+    },
+    {
+      "skillId": "l031",
+      "costumeName": "CRAZY SHOCK！",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 80,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0186"
+    },
+    {
+      "skillId": "l059",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のテクニックが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0176"
+    },
+    {
+      "skillId": "l173",
+      "costumeName": "ケアフリーチルアウト",
+      "name": null,
+      "description": "ID2期生が2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "ID2期生が2人以上",
+            "targetText": "全員",
+            "description": "ID2期生が2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0199"
+    },
+    {
+      "skillId": "l171",
+      "costumeName": "エスニックパラダイス",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 130,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0182"
+    },
+    {
+      "skillId": "l042",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "ID2期生が2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "ID2期生が2人以上",
+            "targetText": "全員",
+            "description": "ID2期生が2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0132"
+    },
+    {
+      "skillId": "l068",
+      "costumeName": "ロイヤルプルマージュ",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0154"
+    },
+    {
+      "skillId": "l105",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のセンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0170"
+    },
+    {
+      "skillId": "l091",
+      "costumeName": "ブラックエージェント",
+      "name": null,
+      "description": "ID3期生が2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "ID3期生が2人以上",
+            "targetText": "全員",
+            "description": "ID3期生が2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0098"
+    },
+    {
+      "skillId": "l200",
+      "costumeName": "サッシーナース",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 130,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0099"
+    },
+    {
+      "skillId": "l021",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "ID3期生が2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "ID3期生が2人以上",
+            "targetText": "全員",
+            "description": "ID3期生が2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0184"
+    },
+    {
+      "skillId": "l142",
+      "costumeName": "フォージ ザ フェイト",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0193"
+    },
+    {
+      "skillId": "l123",
+      "costumeName": "パッショナートレアメタル",
+      "name": null,
+      "description": "ID3期生が2人以上で全員のセンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 135,
+            "conditionText": "ID3期生が2人以上",
+            "targetText": "全員",
+            "description": "ID3期生が2人以上で全員のセンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0051"
+    },
+    {
+      "skillId": "l187",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のテクニックが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0011"
+    },
+    {
+      "skillId": "l056",
+      "costumeName": "レイニーシャーマンズ",
+      "name": null,
+      "description": "全員の全パラメータが45%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 45,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが45%UP"
+          }
+        ]
+      },
+      "cardId": "c0149"
+    },
+    {
+      "skillId": "l120",
+      "costumeName": "リップルディーヴァ",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 130,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0118"
+    },
+    {
+      "skillId": "l137",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のセンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0028"
+    },
+    {
+      "skillId": "l144",
+      "costumeName": "ライミンググリムリーパー",
+      "name": null,
+      "description": "Mythが2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "Mythが2人以上",
+            "targetText": "全員",
+            "description": "Mythが2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0113"
+    },
+    {
+      "skillId": "l066",
+      "costumeName": "真夏のSexy Flow",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 80,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0087"
+    },
+    {
+      "skillId": "l114",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "Mythが2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "Mythが2人以上",
+            "targetText": "全員",
+            "description": "Mythが2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0157"
+    },
+    {
+      "skillId": "l076",
+      "costumeName": "スマイリーフェニックス",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 130,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0125"
+    },
+    {
+      "skillId": "l163",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のセンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0014"
+    },
+    {
+      "skillId": "l082",
+      "costumeName": "テンタクルkimono",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0022"
+    },
+    {
+      "skillId": "l043",
+      "costumeName": "波打ち際のモノクローム",
+      "name": null,
+      "description": "Mythが2人以上で全員のセンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 135,
+            "conditionText": "Mythが2人以上",
+            "targetText": "全員",
+            "description": "Mythが2人以上で全員のセンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0062"
+    },
+    {
+      "skillId": "l130",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のパフォーマンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0021"
+    },
+    {
+      "skillId": "l073",
+      "costumeName": "レゾナンスネフィリム",
+      "name": null,
+      "description": "Promiseが2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "Promiseが2人以上",
+            "targetText": "全員",
+            "description": "Promiseが2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0001"
+    },
+    {
+      "skillId": "l054",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "Promiseが2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "Promiseが2人以上",
+            "targetText": "全員",
+            "description": "Promiseが2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0026"
+    },
+    {
+      "skillId": "l136",
+      "costumeName": "クロノスウォッチャー",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0103"
+    },
+    {
+      "skillId": "l011",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のセンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0173"
+    },
+    {
+      "skillId": "l030",
+      "costumeName": "レイディアントチーズ",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 130,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0107"
+    },
+    {
+      "skillId": "l095",
+      "costumeName": "シャボンフィーバー",
+      "name": null,
+      "description": "Promiseが2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "Promiseが2人以上",
+            "targetText": "全員",
+            "description": "Promiseが2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0192"
+    },
+    {
+      "skillId": "l138",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "Adventが2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "Adventが2人以上",
+            "targetText": "全員",
+            "description": "Adventが2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0075"
+    },
+    {
+      "skillId": "l182",
+      "costumeName": "インテレクトアーカイブ",
+      "name": null,
+      "description": "全員のパフォーマンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0060"
+    },
+    {
+      "skillId": "l165",
+      "costumeName": "ゴシックロマンス",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 30,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0158"
+    },
+    {
+      "skillId": "l157",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員の全パラメータが20%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 20,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員の全パラメータが20%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0082"
+    },
+    {
+      "skillId": "l052",
+      "costumeName": "キラキラマジックストーン",
+      "name": null,
+      "description": "全員のセンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0040"
+    },
+    {
+      "skillId": "l062",
+      "costumeName": "スパークルジェム",
+      "name": null,
+      "description": "Adventが2人以上で全員のパフォーマンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 135,
+            "conditionText": "Adventが2人以上",
+            "targetText": "全員",
+            "description": "Adventが2人以上で全員のパフォーマンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0044"
+    },
+    {
+      "skillId": "l128",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のセンスが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0094"
+    },
+    {
+      "skillId": "l081",
+      "costumeName": "エレガントレイブン",
+      "name": null,
+      "description": "Adventが2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "Adventが2人以上",
+            "targetText": "全員",
+            "description": "Adventが2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0112"
+    },
+    {
+      "skillId": "l017",
+      "costumeName": "アリュールウィッチ",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 80,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0115"
+    },
+    {
+      "skillId": "l166",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のスコアサポート効果50%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 50,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果50%"
+          }
+        ]
+      },
+      "cardId": "c0049"
+    },
+    {
+      "skillId": "l116",
+      "costumeName": "FUWA FUWAガード",
+      "name": null,
+      "description": "全員のテクニックが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0116"
+    },
+    {
+      "skillId": "l201",
+      "costumeName": "キャンディハニー",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 30,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0134"
+    },
+    {
+      "skillId": "l065",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員の全パラメータが35%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 35,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員の全パラメータが35%UP"
+          }
+        ]
+      },
+      "cardId": "c0046"
+    },
+    {
+      "skillId": "l172",
+      "costumeName": "MOCO MOCOガード",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 130,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0189"
+    },
+    {
+      "skillId": "l156",
+      "costumeName": "キャンディポップ",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 80,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0155"
+    },
+    {
+      "skillId": "l074",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "ReGLOSSが2人以上で全員の全パラメータが40%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 40,
+            "conditionText": "ReGLOSSが2人以上",
+            "targetText": "全員",
+            "description": "ReGLOSSが2人以上で全員の全パラメータが40%UP"
+          }
+        ]
+      },
+      "cardId": "c0191"
+    },
+    {
+      "skillId": "l060",
+      "costumeName": "ガーリーオーバーチューン",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 130,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0201"
+    },
+    {
+      "skillId": "l014",
+      "costumeName": "ひまわりアンサンブル",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 130,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0183"
+    },
+    {
+      "skillId": "l070",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のスコアサポート効果50%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 50,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果50%"
+          }
+        ]
+      },
+      "cardId": "c0120"
+    },
+    {
+      "skillId": "l092",
+      "costumeName": "エグゼクティブギャル",
+      "name": null,
+      "description": "ReGLOSSが2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "ReGLOSSが2人以上",
+            "targetText": "全員",
+            "description": "ReGLOSSが2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0145"
+    },
+    {
+      "skillId": "l190",
+      "costumeName": "ラグジュアリーブリーズ",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 130,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0010"
+    },
+    {
+      "skillId": "l147",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが20%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 20,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが20%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0167"
+    },
+    {
+      "skillId": "l186",
+      "costumeName": "浪漫羽織コーデヰネヱト",
+      "name": null,
+      "description": "全員のセンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のセンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0055"
+    },
+    {
+      "skillId": "l189",
+      "costumeName": "ゴシックヴァンパイア",
+      "name": null,
+      "description": "ReGLOSSが2人以上で全員のテクニックが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 135,
+            "conditionText": "ReGLOSSが2人以上",
+            "targetText": "全員",
+            "description": "ReGLOSSが2人以上で全員のテクニックが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0008"
+    },
+    {
+      "skillId": "l039",
+      "costumeName": "ドリーミードロップ",
+      "name": null,
+      "description": "全員のテクニックが100%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 100,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のテクニックが100%UP"
+          }
+        ]
+      },
+      "cardId": "c0185"
+    },
+    {
+      "skillId": "l108",
+      "costumeName": "スイート番長スタイル",
+      "name": null,
+      "description": "全員のパフォーマンスが120%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 120,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のパフォーマンスが120%UP"
+          }
+        ]
+      },
+      "cardId": "c0126"
+    },
+    {
+      "skillId": "l097",
+      "costumeName": "さいきょうキョンシー",
+      "name": null,
+      "description": "ReGLOSSが2人以上で全員の全パラメータが50%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "全パラメータUP",
+        "effects": [
+          {
+            "label": "全パラメータUP",
+            "amountPercent": 50,
+            "conditionText": "ReGLOSSが2人以上",
+            "targetText": "全員",
+            "description": "ReGLOSSが2人以上で全員の全パラメータが50%UP"
+          }
+        ]
+      },
+      "cardId": "c0148"
+    }
+  ],
+  "commonEffects": [
+    {
+      "skillId": "l085",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch019",
+      "memberId": "shiranui_flare",
+      "memberName": "不知火フレア",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l033",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch044",
+      "memberId": "shirogane_noel",
+      "memberName": "白銀ノエル",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l038",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch007",
+      "memberId": "houshou_marine",
+      "memberName": "宝鐘マリン",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l125",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch034",
+      "memberId": "tsunomaki_watame",
+      "memberName": "角巻わため",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l199",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch045",
+      "memberId": "tokoyami_towa",
+      "memberName": "常闇トワ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l122",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch011",
+      "memberId": "himemori_luna",
+      "memberName": "姫森ルーナ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l087",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch039",
+      "memberId": "yukihana_lamy",
+      "memberName": "雪花ラミィ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l088",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch033",
+      "memberId": "momosuzu_nene",
+      "memberName": "桃鈴ねね",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l197",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch027",
+      "memberId": "shishiro_botan",
+      "memberName": "獅白ぼたん",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l160",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch035",
+      "memberId": "omaru_polka",
+      "memberName": "尾丸ポルカ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l170",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch055",
+      "memberId": "laplus_darknesss",
+      "memberName": "ラプラス・ダークネス",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l036",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch008",
+      "memberId": "takane_lui",
+      "memberName": "鷹嶺ルイ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l045",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch021",
+      "memberId": "hakui_koyori",
+      "memberName": "博衣こより",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l131",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch005",
+      "memberId": "kazama_iroha",
+      "memberName": "風真いろは",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l109",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch031",
+      "memberId": "ayunda_risu",
+      "memberName": "アユンダ・リス",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l015",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch010",
+      "memberId": "moona_hoshinova",
+      "memberName": "ムーナ・ホシノヴァ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l124",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch038",
+      "memberId": "airani_iofifteen",
+      "memberName": "アイラニ・イオフィフティーン",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l046",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch029",
+      "memberId": "kureiji_ollie",
+      "memberName": "クレイジー・オリー",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l061",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch006",
+      "memberId": "anya_melfissa",
+      "memberName": "アーニャ・メルフィッサ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l178",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch012",
+      "memberId": "pavolia_reine",
+      "memberName": "パヴォリア・レイネ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l096",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch018",
+      "memberId": "vestia_zeta",
+      "memberName": "ベスティア・ゼータ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l153",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch062",
+      "memberId": "kaela_kovalskia",
+      "memberName": "カエラ・コヴァルスキア",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l117",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch053",
+      "memberId": "ninomae_inanis",
+      "memberName": "一伊那尓栖",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l141",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch059",
+      "memberId": "irys",
+      "memberName": "IRyS",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l009",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch052",
+      "memberId": "ouro_kronii",
+      "memberName": "オーロ・クロニー",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l100",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch043",
+      "memberId": "hakos_baelz",
+      "memberName": "ハコス・ベールズ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l067",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch016",
+      "memberId": "shiori_novella",
+      "memberName": "シオリ・ノヴェラ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l159",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch036",
+      "memberId": "koseki_bijou",
+      "memberName": "古石ビジュー",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l057",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch017",
+      "memberId": "nerissa_ravencroft",
+      "memberName": "ネリッサ・レイヴンクロフト",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l078",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch042",
+      "memberId": "fuwawa_abyssgard",
+      "memberName": "フワワ・アビスガード",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l018",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch004",
+      "memberId": "mococo_abyssgard",
+      "memberName": "モココ・アビスガード",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l167",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch002",
+      "memberId": "otonose_kanade",
+      "memberName": "音乃瀬奏",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l126",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch028",
+      "memberId": "ichijou_ririka",
+      "memberName": "一条莉々華",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l168",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch049",
+      "memberId": "juufuutei_raden",
+      "memberName": "儒烏風亭らでん",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l132",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch046",
+      "memberId": "todoroki_hajime",
+      "memberName": "轟はじめ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l025",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch040",
+      "memberId": "nakiri_ayame",
+      "memberName": "百鬼あやめ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l134",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch025",
+      "memberId": "yuzuki_choco",
+      "memberName": "癒月ちょこ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l107",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch054",
+      "memberId": "oozora_subaru",
+      "memberName": "大空スバル",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l193",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch001",
+      "memberId": "azki",
+      "memberName": "AZKi",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l140",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch037",
+      "memberId": "ookami_mio",
+      "memberName": "大神ミオ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l162",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch056",
+      "memberId": "sakura_miko",
+      "memberName": "さくらみこ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l145",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch014",
+      "memberId": "nekomata_okayu",
+      "memberName": "猫又おかゆ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l195",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch061",
+      "memberId": "inugami_korone",
+      "memberName": "戌神ころね",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l110",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch013",
+      "memberId": "hoshimachi_suisei",
+      "memberName": "星街すいせい",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l005",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch050",
+      "memberId": "tokino_sora",
+      "memberName": "ときのそら",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l129",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch041",
+      "memberId": "robocosan",
+      "memberName": "ロボ子さん",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l151",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch023",
+      "memberId": "aki_rosenthal",
+      "memberName": "アキ・ローゼンタール",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l019",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch022",
+      "memberId": "akai_haato",
+      "memberName": "赤井はあと",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l004",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch030",
+      "memberId": "shirakami_fubuki",
+      "memberName": "白上フブキ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l146",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch024",
+      "memberId": "natsuiro_matsuri",
+      "memberName": "夏色まつり",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l053",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch026",
+      "memberId": "usada_pekora",
+      "memberName": "兎田ぺこら",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l127",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch057",
+      "memberId": "kobo_kanaeru",
+      "memberName": "こぼ・かなえる",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l179",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch047",
+      "memberId": "mori_calliope",
+      "memberName": "森カリオペ",
+      "kind": "default-costume",
+      "cardIds": []
+    },
+    {
+      "skillId": "l006",
+      "costumeName": "デフォルト",
+      "name": null,
+      "description": "全員の全パラメータが15%UP",
+      "characterId": "ch032",
+      "memberId": "takanashi_kiara",
+      "memberName": "小鳥遊キアラ",
+      "kind": "default-costume",
+      "cardIds": []
+    }
+  ]
+}

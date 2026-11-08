@@ -1,0 +1,56 @@
+.catalogViewModes,.catalogSPControls { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0; }
+.catalogViewModes button[aria-pressed="true"] { background:#203b60; color:white; }
+.catalogSPControls label { display:flex; align-items:center; gap:8px; }
+.catalogSPControls [hidden] { display:none; }
+/* Only the comparison body grows; existing search/growth controls keep their layout. */
+main.wrap:has(#catalogSP:not([hidden]),#catalogStats:not([hidden]),#catalogActive:not([hidden])) { max-width:none; }
+main.wrap:has(#catalogSP:not([hidden]),#catalogStats:not([hidden]),#catalogActive:not([hidden])) > .panel:not(#catalogSP):not(#catalogStats):not(#catalogActive) { max-width:1144px; margin-inline:auto; }
+:is(#catalogSP,#catalogStats,#catalogActive) > .catalogSPControls,:is(#catalogSP,#catalogStats,#catalogActive) > p { max-width:1114px; margin-inline:auto; }
+.catalogSPScroll { overflow-x:auto; height:auto; max-height:none; border:1px solid #cbd5e1; }
+.catalogSPTable { border-spacing:0; table-layout:fixed; width:100%; min-width:614px; background:white; color:#17283e; font-size:12px; line-height:1.3; }
+.catalogSPTable caption { text-align:left; padding:4px; }
+.catalogSPTable th,.catalogSPTable td { box-sizing:border-box; padding:3px 4px; border-bottom:1px solid #d9dfe5; vertical-align:middle; text-align:center; background:white; }
+.catalogSPTable th { background:#eef1f4; }
+.catalogSPTable th:first-child,.catalogSPTable td:first-child { position:sticky; left:0; width:40px; min-width:40px; z-index:2; }
+.catalogSPTable th:nth-child(2),.catalogSPTable td:nth-child(2) { position:sticky; left:var(--sp-thumb-offset,40px); width:auto; z-index:2; }
+.catalogSPTable th button { font:inherit; font-weight:600; color:inherit; text-align:center; width:100%; min-height:28px; padding:0; border:0; border-radius:0; background:transparent; box-shadow:none; cursor:pointer; }
+.catalogSPTable th button:hover { text-decoration:underline; }
+.catalogSPTable th button:focus-visible { outline:2px solid #2563eb; outline-offset:1px; }
+.catalogSPTable td:nth-child(2) strong,.catalogSPTable td:nth-child(2) span,.catalogSPTable small { display:block; }
+.catalogSPTable td:nth-child(2) { overflow-wrap:anywhere; text-align:left; }
+.catalogSPTable td:nth-child(2) span { font-weight:400; }
+.catalogSPTable small { font-size:10px; color:#475569; margin-top:1px; white-space:normal; max-width:140px; }
+.catalogSPTable td:nth-child(n+3) { font-variant-numeric:tabular-nums; }
+.catalogSPTable td:nth-child(n+3):nth-child(-n+6) > div { white-space:nowrap; }
+.catalogSPTable th:nth-child(3),.catalogSPTable th:nth-child(6) { width:64px; }
+.catalogSPTable th:nth-child(4),.catalogSPTable th:nth-child(5) { width:104px; }
+.catalogSPTable th:nth-child(7) { width:20%; }
+.catalogSPThumb { width:32px; height:32px; margin-inline:auto; position:relative; font-size:9px; background:#f1f5f9; display:grid; place-items:center; }
+.catalogSPThumb img { width:100%; height:100%; object-fit:contain; position:absolute; inset:0; }
+.catalogSPFloating { position:fixed; overflow:hidden; z-index:40; background:white; }
+.catalogSPFloating[hidden] { display:none; }
+.catalogSPFloating table { table-layout:fixed; }
+@media(max-width:600px){
+ .catalogSPTable th:nth-child(2),.catalogSPTable td:nth-child(2) { width:128px; }
+ .catalogSPTable th:nth-child(7) { width:110px; }
+}
+
+#catalogCards[hidden],#catalogSP[hidden],#catalogStats[hidden],#catalogActive[hidden] { display:none; }
+
+.catalogSPControls label { white-space:nowrap; }
+.catalogViewModes button { min-height:36px; padding:6px 12px; border:1px solid #94a3b8; border-radius:6px; }
+
+/* Status layout with full Passive text; all interaction and density rules above are shared. */
+.catalogStatus .catalogSPTable { min-width:744px; }
+.catalogStatus .catalogSPTable th:nth-child(n+3):nth-child(-n+6) { width:64px; }
+.catalogStatus .catalogSPTable th:nth-child(7) { width:320px; }
+.catalogStatus [data-sp-field="passive"] { white-space:pre-wrap; overflow-wrap:anywhere; }
+
+
+/* Center bounded condition text within its shared data column as well. */
+.catalogSPTable td:nth-child(n+3) small { margin-inline:auto; }
+
+.catalogActive .catalogSPTable { min-width:744px; }
+.catalogActive .catalogSPTable th:nth-child(n+3):nth-child(-n+6) { width:64px; }
+.catalogActive .catalogSPTable th:nth-child(7) { width:320px; }
+.catalogActive [data-sp-field="conditions"] { white-space:pre-wrap; overflow-wrap:anywhere; }

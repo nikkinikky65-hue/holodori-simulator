@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>ホロドリ イベント編成探索</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+  <script src="site-navigation.js" defer></script>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <header class="pageHeader">
+      <div>
+        <h1>イベント編成探索</h1>
+        <p class="sub">
+          イベント条件から編成候補を探索
+        </p>
+      </div>
+    </header>
+
+
+     <div id="canonicalCardModal" class="cardLoadModal" hidden>
+       <div class="cardLoadBackdrop" data-close-canonical-card-modal></div>
+       <div class="cardLoadDialog" role="dialog" aria-modal="true" aria-labelledby="canonicalCardTitle">
+         <div class="cardLoadHeader">
+           <strong id="canonicalCardTitle">カード呼び出し</strong>
+           <button type="button" data-close-canonical-card-modal>閉じる</button>
+         </div>
+         <div id="canonicalCardTarget" class="sub"></div>
+         <p id="canonicalCardStatus" class="sub" role="status" aria-live="polite"></p>
+         <div id="canonicalCardList" class="canonicalCardList"></div>
+       </div>
+     </div>
+    <!-- =====================================
+         必須メンバー
+    ====================================== -->
+    <script src="party-condition-resolver.js"></script><script src="active-conditional-rules.js"></script>
+<script src="canonical-card-adapter.js?v=ce7971b891c8"></script>
+
+    <section class="panel">
+
+      <h2>必須メンバー</h2>
+
+      <p class="sub">
+        最大4人まで指定できます。
+        メンバー選択後、必要なら使用カードまで固定できます。
+      </p>
+
+      <div
+        id="requiredSlots"
+        class="requiredSlots"
+      ></div>
+
+    </section>
+
+
+    <!-- =====================================
+         探索
+    ====================================== -->
+
+    <section class="panel">
+
+      <h2>探索</h2>
+
+      <div class="eventSearchActions">
+
+        <button
+          id="searchFormation"
+          type="button"
+        >
+          編成候補を計算
+        </button>
+
+        <button
+          id="clearConditions"
+          type="button"
+        >
+          条件クリア
+        </button>
+
+      </div>
+
+      <p
+        id="searchStatus"
+        class="sub"
+      ></p>
+
+    </section>
+
+
+    <!-- =====================================
+         結果
+    ====================================== -->
+
+    <section class="panel">
+
+      <h2>編成候補</h2>
+
+      <label><input id="highestRarityOnly" type="checkbox" checked>タレントごとの最高レアリティのみ</label>
+<p id="candidateFilterStatus" class="sub"></p>
+<button id="cancelSearch" type="button" disabled>探索を中断</button>
+<p id="candidateLibraryStatus" class="sub" role="status">候補を読み込み中…</p>
+      <div
+        id="formationResults"
+        class="formationResults"
+      >
+        <div class="libraryEmpty">
+          条件を指定して探索してください
+        </div>
+      </div>
+
+    </section>
+
+  <section class="panel" aria-label="データについて">
+  <h2>データについて</h2>
+  <p class="sub">P/T/Sは特訓上限の基礎値を個別に切り上げて分配し、開花補正後に再度切り上げます。TOTALは3項目の合計です。ボード・メモリー・編成補正は含みません。育成状態が不明な旧保存は「—」で表示します。</p>
+  <p class="sub">Activeは編成条件で倍率を置換します。現行モードではCOMBO40・LIFE600条件を成立として計算します。</p>
+</section>
+</main>
+
+
+  <script src="members.js"></script>
+  <script src="card-rules.js"></script>
+  <script src="user-card-state.js"></script>
+  <script src="event-candidate-library.js"></script>
+  <script src="event-search-safety.js"></script>
+  <script src="event.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,4599 @@
+{
+  "format": "leader-parameter-rules-v1",
+  "leaders": [
+    {
+      "id": "l158",
+      "cardId": "c0164",
+      "name": "ときのそら / 空まで届け！まっすぐな歌声",
+      "description": "全員のセンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l089",
+      "cardId": "c0016",
+      "name": "ときのそら / ひたむきに描く虹のうた",
+      "description": "0期生が2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g001",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "0期生が2人以上"
+          },
+          "description": "0期生が2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l084",
+      "cardId": "c0074",
+      "name": "ロボ子さん / ゆるふわウインクLIVE",
+      "description": "全員の全パラメータが35%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 35,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが35%UP"
+        }
+      ]
+    },
+    {
+      "id": "l192",
+      "cardId": "c0096",
+      "name": "ロボ子さん / 高性能なVサイン",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l161",
+      "cardId": "c0073",
+      "name": "アキ・ローゼンタール / 歌うcuriousハーフエルフ",
+      "description": "全員の全パラメータが35%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 35,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが35%UP"
+        }
+      ]
+    },
+    {
+      "id": "l104",
+      "cardId": "c0142",
+      "name": "アキ・ローゼンタール / 艶帯びたハーフエルフ",
+      "description": "全員のセンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l020",
+      "cardId": "c0130",
+      "name": "アキ・ローゼンタール / 陽だまりのミスティカルスイング",
+      "description": "1期生が2人以上で全員のテクニックが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g010",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "1期生が2人以上"
+          },
+          "description": "1期生が2人以上で全員のテクニックが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l101",
+      "cardId": "c0156",
+      "name": "赤井はあと / ハートくすぐる奔放ライブ",
+      "description": "1期生が2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g010",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "1期生が2人以上"
+          },
+          "description": "1期生が2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l180",
+      "cardId": "c0108",
+      "name": "赤井はあと / let's freestyle おやつタイム",
+      "description": "全員のテクニックが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l050",
+      "cardId": "c0187",
+      "name": "白上フブキ / ギアあげるFOXパフォーマンス",
+      "description": "全員のテクニックが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l023",
+      "cardId": "c0180",
+      "name": "白上フブキ / 狐のお宮でこんこんこん",
+      "description": "1期生が2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g010",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "1期生が2人以上"
+          },
+          "description": "1期生が2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l135",
+      "cardId": "c0070",
+      "name": "白上フブキ / 渚で魅せるtwinkle",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l040",
+      "cardId": "c0085",
+      "name": "夏色まつり / あざとさ全開キュンキュンライブ",
+      "description": "全員の全パラメータが35%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 35,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが35%UP"
+        }
+      ]
+    },
+    {
+      "id": "l198",
+      "cardId": "c0200",
+      "name": "夏色まつり / ハジける快活チアリーダー",
+      "description": "全員のパフォーマンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l152",
+      "cardId": "c0090",
+      "name": "夏色まつり / おてんば狼のあま～いTrick",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l035",
+      "cardId": "c0102",
+      "name": "百鬼あやめ / 鬼娘のほわっとアンコール",
+      "description": "2期生が2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g013",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "2期生が2人以上"
+          },
+          "description": "2期生が2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l191",
+      "cardId": "c0047",
+      "name": "百鬼あやめ / 隠世でのほほん、気ままな提灯",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l090",
+      "cardId": "c0194",
+      "name": "百鬼あやめ / 鬼神流・ぷかぷかリゾート",
+      "description": "2期生が2人以上で全員のテクニックが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g013",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "2期生が2人以上"
+          },
+          "description": "2期生が2人以上で全員のテクニックが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l026",
+      "cardId": "c0124",
+      "name": "癒月ちょこ / 保健医さん魅惑のライブ",
+      "description": "全員のテクニックが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l174",
+      "cardId": "c0042",
+      "name": "癒月ちょこ / 悪魔な魅惑に手玉にとられて",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 30,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l034",
+      "cardId": "c0056",
+      "name": "大空スバル / 心照らすActive Live",
+      "description": "全員のセンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l064",
+      "cardId": "c0196",
+      "name": "大空スバル / クワッとじゃれ合うアヒルの午後",
+      "description": "2期生が2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g013",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "2期生が2人以上"
+          },
+          "description": "2期生が2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l169",
+      "cardId": "c0025",
+      "name": "大空スバル / Energeticスプラッシュ！",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l051",
+      "cardId": "c0061",
+      "name": "AZKi / やわらかな旋律に乗せて",
+      "description": "0期生が2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g001",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "0期生が2人以上"
+          },
+          "description": "0期生が2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l106",
+      "cardId": "c0160",
+      "name": "AZKi / 咲き誇る一途な花",
+      "description": "全員のセンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l022",
+      "cardId": "c0136",
+      "name": "大神ミオ / 光射す狼の歌声",
+      "description": "全員のパフォーマンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l098",
+      "cardId": "c0052",
+      "name": "大神ミオ / ホッととろけるnightscape",
+      "description": "ゲーマーズが2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g009",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ゲーマーズが2人以上"
+          },
+          "description": "ゲーマーズが2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l099",
+      "cardId": "c0127",
+      "name": "大神ミオ / 夏にまどろむWolf Heart",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l102",
+      "cardId": "c0054",
+      "name": "さくらみこ / 両手広げるCheerful show",
+      "description": "全員のテクニックが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l121",
+      "cardId": "c0166",
+      "name": "さくらみこ / サクラBloom",
+      "description": "全員のセンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l071",
+      "cardId": "c0138",
+      "name": "さくらみこ / ビーチで弾ける、光彩ショット！",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l188",
+      "cardId": "c0081",
+      "name": "猫又おかゆ / 夢中にさせるいたずらCATライブ",
+      "description": "全員のパフォーマンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l013",
+      "cardId": "c0171",
+      "name": "猫又おかゆ / 宴の果てに、ナイショの戯れ",
+      "description": "全員のテクニックが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l044",
+      "cardId": "c0050",
+      "name": "猫又おかゆ / パラソル下のリバティキャット",
+      "description": "ゲーマーズが2人以上で全員のパフォーマンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g009",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ゲーマーズが2人以上"
+          },
+          "description": "ゲーマーズが2人以上で全員のパフォーマンスが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l155",
+      "cardId": "c0066",
+      "name": "戌神ころね / farout dogパンチライン",
+      "description": "ゲーマーズが2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g009",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ゲーマーズが2人以上"
+          },
+          "description": "ゲーマーズが2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l196",
+      "cardId": "c0175",
+      "name": "戌神ころね / Go! Go! Laughing Skater",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l032",
+      "cardId": "c0089",
+      "name": "戌神ころね / 密林を舞うワイルドサマー！",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l058",
+      "cardId": "c0162",
+      "name": "星街すいせい / フロア沸かす目映い存在",
+      "description": "全員の全パラメータが35%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 35,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが35%UP"
+        }
+      ]
+    },
+    {
+      "id": "l049",
+      "cardId": "c0110",
+      "name": "星街すいせい / 心奪うComet Tune",
+      "description": "全員のテクニックが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l080",
+      "cardId": "c0039",
+      "name": "星街すいせい / 夏に一閃！水鉄砲のアルペジオ",
+      "description": "0期生が2人以上で全員のセンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g001",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "0期生が2人以上"
+          },
+          "description": "0期生が2人以上で全員のセンスが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l048",
+      "cardId": "c0058",
+      "name": "兎田ぺこら / cheekyホッピンバニー",
+      "description": "全員のセンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l008",
+      "cardId": "c0121",
+      "name": "兎田ぺこら / 愛嬌たっぷりラビットフィールド",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 30,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l148",
+      "cardId": "c0174",
+      "name": "不知火フレア / ダンスから伝わる気遣い",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが20%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 20,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが20%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l037",
+      "cardId": "c0163",
+      "name": "不知火フレア / ハーフエルフの風渡るゴンドラ",
+      "description": "全員のパフォーマンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l016",
+      "cardId": "c0019",
+      "name": "不知火フレア / sparks sunset",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のテクニックが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のテクニックが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l041",
+      "cardId": "c0169",
+      "name": "白銀ノエル / 歌う脳筋ゴリ押しナイト",
+      "description": "3期生が2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g011",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "3期生が2人以上"
+          },
+          "description": "3期生が2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l111",
+      "cardId": "c0153",
+      "name": "白銀ノエル / 風薫るおっとり騎士",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l154",
+      "cardId": "c0083",
+      "name": "白銀ノエル / 波まとうゆるふわKnight",
+      "description": "3期生が2人以上で全員のパフォーマンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g011",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "3期生が2人以上"
+          },
+          "description": "3期生が2人以上で全員のパフォーマンスが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l072",
+      "cardId": "c0097",
+      "name": "宝鐘マリン / ♡とらえる海賊のテリトリー",
+      "description": "全員のセンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l183",
+      "cardId": "c0165",
+      "name": "宝鐘マリン / 妖艶あふれるマリンブルー",
+      "description": "3期生が2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g011",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "3期生が2人以上"
+          },
+          "description": "3期生が2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l194",
+      "cardId": "c0198",
+      "name": "宝鐘マリン / お宝独占♡ウォーターキャノン",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l029",
+      "cardId": "c0086",
+      "name": "角巻わため / 広がるhealing sound",
+      "description": "全員のテクニックが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l139",
+      "cardId": "c0088",
+      "name": "角巻わため / Woolly Smile Festival",
+      "description": "全員の全パラメータが45%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 45,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが45%UP"
+        }
+      ]
+    },
+    {
+      "id": "l002",
+      "cardId": "c0041",
+      "name": "角巻わため / 真夏のもふもふフロートタイム",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l047",
+      "cardId": "c0024",
+      "name": "常闇トワ / 余裕ぶっこくナイトライブ",
+      "description": "全員のパフォーマンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l118",
+      "cardId": "c0161",
+      "name": "常闇トワ / ガチで終わらんチルい夜遊び",
+      "description": "4期生が2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g015",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "4期生が2人以上"
+          },
+          "description": "4期生が2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l027",
+      "cardId": "c0023",
+      "name": "常闇トワ / ゆらゆら過ごす木陰のバカンス",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが80%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l093",
+      "cardId": "c0117",
+      "name": "姫森ルーナ / ふんわりプリンセスステージ",
+      "description": "4期生が2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g015",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "4期生が2人以上"
+          },
+          "description": "4期生が2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l077",
+      "cardId": "c0147",
+      "name": "姫森ルーナ / 姫に忠誠アフタヌーン",
+      "description": "全員のテクニックが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l119",
+      "cardId": "c0150",
+      "name": "姫森ルーナ / のんびり姫のおねだりビーチ",
+      "description": "4期生が2人以上で全員のパフォーマンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g015",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "4期生が2人以上"
+          },
+          "description": "4期生が2人以上で全員のパフォーマンスが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l184",
+      "cardId": "c0137",
+      "name": "雪花ラミィ / 照らすsnow mood！",
+      "description": "全員のテクニックが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l150",
+      "cardId": "c0045",
+      "name": "雪花ラミィ / さびしがり屋な雪夜の令嬢",
+      "description": "5期生が2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g002",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "5期生が2人以上"
+          },
+          "description": "5期生が2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l001",
+      "cardId": "c0034",
+      "name": "雪花ラミィ / 火照りを鎮める癒しの一口",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l175",
+      "cardId": "c0067",
+      "name": "桃鈴ねね / get excitedジャンプ！",
+      "description": "5期生が2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g002",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "5期生が2人以上"
+          },
+          "description": "5期生が2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l177",
+      "cardId": "c0002",
+      "name": "桃鈴ねね / 一緒に歌お！イノセントリズム",
+      "description": "全員のパフォーマンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l164",
+      "cardId": "c0111",
+      "name": "獅白ぼたん / 魅せるLaughing Lion",
+      "description": "全員のテクニックが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l007",
+      "cardId": "c0188",
+      "name": "獅白ぼたん / 目を奪う神エイム！lion’s hunt",
+      "description": "全員の全パラメータが45%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 45,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが45%UP"
+        }
+      ]
+    },
+    {
+      "id": "l103",
+      "cardId": "c0059",
+      "name": "獅白ぼたん / 一心不乱のちゅるタイム",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l010",
+      "cardId": "c0109",
+      "name": "尾丸ポルカ / パーティーハード全開LIVE",
+      "description": "全員のパフォーマンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l028",
+      "cardId": "c0092",
+      "name": "尾丸ポルカ / 変幻自在！ポルカサーカス開演！",
+      "description": "全員の全パラメータが45%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 45,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが45%UP"
+        }
+      ]
+    },
+    {
+      "id": "l112",
+      "cardId": "c0009",
+      "name": "尾丸ポルカ / 幸せ分け合うMeat For You",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l024",
+      "cardId": "c0078",
+      "name": "ラプラス・ダークネス / 今宵のライブ、吾輩が主役",
+      "description": "全員のパフォーマンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l075",
+      "cardId": "c0007",
+      "name": "ラプラス・ダークネス / 作戦開始！見せろ総帥の手腕",
+      "description": "holoXが2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g007",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "holoXが2人以上"
+          },
+          "description": "holoXが2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l143",
+      "cardId": "c0006",
+      "name": "ラプラス・ダークネス / 総帥専用！シークレットプール",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l133",
+      "cardId": "c0069",
+      "name": "鷹嶺ルイ / どこでも信頼！切れ者LIVE",
+      "description": "全員のスコアサポート効果50%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果50%"
+        }
+      ]
+    },
+    {
+      "id": "l079",
+      "cardId": "c0151",
+      "name": "鷹嶺ルイ / 組織支える超敏腕幹部",
+      "description": "全員の全パラメータが45%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 45,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが45%UP"
+        }
+      ]
+    },
+    {
+      "id": "l094",
+      "cardId": "c0095",
+      "name": "鷹嶺ルイ / 波音に安らぐ、しごでき幹部",
+      "description": "holoXが2人以上で全員のセンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g007",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "holoXが2人以上"
+          },
+          "description": "holoXが2人以上で全員のセンスが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l083",
+      "cardId": "c0018",
+      "name": "博衣こより / 舞台に響くcute howl",
+      "description": "全員のパフォーマンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l185",
+      "cardId": "c0131",
+      "name": "博衣こより / 助手くんの心を鷲掴みライブ！",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 30,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l115",
+      "cardId": "c0079",
+      "name": "博衣こより / 振り向きざまのaventure",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l003",
+      "cardId": "c0043",
+      "name": "風真いろは / ステージで放つ！修行の成果",
+      "description": "holoXが2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g007",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "holoXが2人以上"
+          },
+          "description": "holoXが2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l176",
+      "cardId": "c0020",
+      "name": "風真いろは / ちくりんジャキン！と一刀両断",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l149",
+      "cardId": "c0093",
+      "name": "アユンダ・リス / まんまるしっぽのキュートライブ",
+      "description": "全員の全パラメータが35%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 35,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが35%UP"
+        }
+      ]
+    },
+    {
+      "id": "l055",
+      "cardId": "c0053",
+      "name": "アユンダ・リス / いたずらたくらむ木漏れ日の森",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のテクニックが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l086",
+      "cardId": "c0048",
+      "name": "ムーナ・ホシノヴァ / 月のヒカリに溶けこむ歌声",
+      "description": "全員のパフォーマンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l012",
+      "cardId": "c0139",
+      "name": "ムーナ・ホシノヴァ / Lunar Songstress",
+      "description": "ID1期生が2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g006",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ID1期生が2人以上"
+          },
+          "description": "ID1期生が2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l113",
+      "cardId": "c0038",
+      "name": "アイラニ・イオフィフティーン / 麗らかなStage View",
+      "description": "ID1期生が2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g006",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ID1期生が2人以上"
+          },
+          "description": "ID1期生が2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l063",
+      "cardId": "c0133",
+      "name": "アイラニ・イオフィフティーン / 陽光射すCosmos Palette",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l069",
+      "cardId": "c0143",
+      "name": "クレイジー・オリー / Deadly Encore",
+      "description": "全員のパフォーマンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l181",
+      "cardId": "c0003",
+      "name": "クレイジー・オリー / Z nonstop talker",
+      "description": "全員の全パラメータが45%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 45,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが45%UP"
+        }
+      ]
+    },
+    {
+      "id": "l031",
+      "cardId": "c0186",
+      "name": "クレイジー・オリー / 常夏のCrazy Dive",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のセンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l059",
+      "cardId": "c0176",
+      "name": "アーニャ・メルフィッサ / Little Back気ままなステージ",
+      "description": "全員のテクニックが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l173",
+      "cardId": "c0199",
+      "name": "アーニャ・メルフィッサ / ソファに沈んでまったりゲーム",
+      "description": "ID2期生が2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g008",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ID2期生が2人以上"
+          },
+          "description": "ID2期生が2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l171",
+      "cardId": "c0182",
+      "name": "アーニャ・メルフィッサ / まったりサニーホリデイ",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l042",
+      "cardId": "c0132",
+      "name": "パヴォリア・レイネ / 祝福のラグジュアリーナイト",
+      "description": "ID2期生が2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g008",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ID2期生が2人以上"
+          },
+          "description": "ID2期生が2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l068",
+      "cardId": "c0154",
+      "name": "パヴォリア・レイネ / おすまし孔雀と嗜む一杯",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l105",
+      "cardId": "c0170",
+      "name": "ベスティア・ゼータ / childlikeるんるんライブ",
+      "description": "全員のセンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l091",
+      "cardId": "c0098",
+      "name": "ベスティア・ゼータ / 陽だまりとネコと構成員",
+      "description": "ID3期生が2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g014",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ID3期生が2人以上"
+          },
+          "description": "ID3期生が2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l200",
+      "cardId": "c0099",
+      "name": "ベスティア・ゼータ / 気まぐれガールのドキドキ診療室",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l021",
+      "cardId": "c0184",
+      "name": "カエラ・コヴァルスキア / 鍛冶場に匹敵！激アツライブ",
+      "description": "ID3期生が2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g014",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ID3期生が2人以上"
+          },
+          "description": "ID3期生が2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l142",
+      "cardId": "c0193",
+      "name": "カエラ・コヴァルスキア / こころ強さは鍛冶場で研ぐ",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l123",
+      "cardId": "c0051",
+      "name": "カエラ・コヴァルスキア / 木陰で紡ぐShiny Memory",
+      "description": "ID3期生が2人以上で全員のセンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g014",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ID3期生が2人以上"
+          },
+          "description": "ID3期生が2人以上で全員のセンスが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l187",
+      "cardId": "c0011",
+      "name": "こぼ・かなえる / ドタバタフルスロットルステージ",
+      "description": "全員のテクニックが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l056",
+      "cardId": "c0149",
+      "name": "こぼ・かなえる / あめ上がりの雨喜雨喜シャーマン",
+      "description": "全員の全パラメータが45%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 45,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが45%UP"
+        }
+      ]
+    },
+    {
+      "id": "l120",
+      "cardId": "c0118",
+      "name": "こぼ・かなえる / 波間に揺れるBody ＆ Soul",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l137",
+      "cardId": "c0028",
+      "name": "森カリオペ / レペゼン冥土！ here we go",
+      "description": "全員のセンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l144",
+      "cardId": "c0113",
+      "name": "森カリオペ / Reaper’s death flow",
+      "description": "Mythが2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g004",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "Mythが2人以上"
+          },
+          "description": "Mythが2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l066",
+      "cardId": "c0087",
+      "name": "森カリオペ / ビーチに刺さるReaper's Spike",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l114",
+      "cardId": "c0157",
+      "name": "小鳥遊キアラ / ようこそハピネスステージへ",
+      "description": "Mythが2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g004",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "Mythが2人以上"
+          },
+          "description": "Mythが2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l076",
+      "cardId": "c0125",
+      "name": "小鳥遊キアラ / Lovely Phoenixダイナー",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l163",
+      "cardId": "c0014",
+      "name": "一伊那尓栖 / 舞台を飾る和やか笑顔",
+      "description": "全員のセンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l082",
+      "cardId": "c0022",
+      "name": "一伊那尓栖 / ぽかぽかチャージなひととき",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l043",
+      "cardId": "c0062",
+      "name": "一伊那尓栖 / 潮騒の記憶をたどって",
+      "description": "Mythが2人以上で全員のセンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g004",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "Mythが2人以上"
+          },
+          "description": "Mythが2人以上で全員のセンスが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l130",
+      "cardId": "c0021",
+      "name": "IRyS / 響き渡るホープフルボイス",
+      "description": "全員のパフォーマンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l073",
+      "cardId": "c0001",
+      "name": "IRyS / nephilim sonority",
+      "description": "Promiseが2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g012",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "Promiseが2人以上"
+          },
+          "description": "Promiseが2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l054",
+      "cardId": "c0026",
+      "name": "オーロ・クロニー / 刻を忘れるパフォーマンス",
+      "description": "Promiseが2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g012",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "Promiseが2人以上"
+          },
+          "description": "Promiseが2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l136",
+      "cardId": "c0103",
+      "name": "オーロ・クロニー / 典獄ささやくClock Tower",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l011",
+      "cardId": "c0173",
+      "name": "ハコス・ベールズ / Let's dance more！",
+      "description": "全員のセンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l030",
+      "cardId": "c0107",
+      "name": "ハコス・ベールズ / Chaotic Powerful Rat",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l095",
+      "cardId": "c0192",
+      "name": "ハコス・ベールズ / これがボクのイチオシ！",
+      "description": "Promiseが2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g012",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "Promiseが2人以上"
+          },
+          "description": "Promiseが2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l138",
+      "cardId": "c0075",
+      "name": "シオリ・ノヴェラ / ステージでもKeep it real",
+      "description": "Adventが2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g005",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "Adventが2人以上"
+          },
+          "description": "Adventが2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l182",
+      "cardId": "c0060",
+      "name": "シオリ・ノヴェラ / 書庫ではぐくむ探求心",
+      "description": "全員のパフォーマンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l165",
+      "cardId": "c0158",
+      "name": "シオリ・ノヴェラ / 知を潤すナイトプール",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 30,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l157",
+      "cardId": "c0082",
+      "name": "古石ビジュー / キラリと見せる無垢な素顔",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員の全パラメータが20%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 20,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員の全パラメータが20%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l052",
+      "cardId": "c0040",
+      "name": "古石ビジュー / キラッキラCrystal place",
+      "description": "全員のセンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l062",
+      "cardId": "c0044",
+      "name": "古石ビジュー / 笑顔輝くSand castle",
+      "description": "Adventが2人以上で全員のパフォーマンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g005",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "Adventが2人以上"
+          },
+          "description": "Adventが2人以上で全員のパフォーマンスが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l128",
+      "cardId": "c0094",
+      "name": "ネリッサ・レイヴンクロフト / 美声届ける夕闇ステージ",
+      "description": "全員のセンスが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l081",
+      "cardId": "c0112",
+      "name": "ネリッサ・レイヴンクロフト / 歌に揺らめくノクターン",
+      "description": "Adventが2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g005",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "Adventが2人以上"
+          },
+          "description": "Adventが2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l017",
+      "cardId": "c0115",
+      "name": "ネリッサ・レイヴンクロフト / 魅惑のMagic Potion",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l166",
+      "cardId": "c0049",
+      "name": "フワワ・アビスガード / ホッと安らぐフワフワライブ",
+      "description": "全員のスコアサポート効果50%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果50%"
+        }
+      ]
+    },
+    {
+      "id": "l116",
+      "cardId": "c0116",
+      "name": "フワワ・アビスガード / ぽわぽわドーナツパーティー♪",
+      "description": "全員のテクニックが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l201",
+      "cardId": "c0134",
+      "name": "フワワ・アビスガード / フワワのFlowing Summer",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが30%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 30,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが30%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l065",
+      "cardId": "c0046",
+      "name": "モココ・アビスガード / パッと笑顔にモコモコライブ",
+      "description": "全員の全パラメータが35%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 35,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員の全パラメータが35%UP"
+        }
+      ]
+    },
+    {
+      "id": "l172",
+      "cardId": "c0189",
+      "name": "モココ・アビスガード / のほほんドーナツパーティー♪",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のセンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l156",
+      "cardId": "c0155",
+      "name": "モココ・アビスガード / モココのBreezy Summer",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l074",
+      "cardId": "c0191",
+      "name": "音乃瀬奏 / 届け！とびっきりハーモニー",
+      "description": "ReGLOSSが2人以上で全員の全パラメータが40%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 40,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g003",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ReGLOSSが2人以上"
+          },
+          "description": "ReGLOSSが2人以上で全員の全パラメータが40%UP"
+        }
+      ]
+    },
+    {
+      "id": "l060",
+      "cardId": "c0201",
+      "name": "音乃瀬奏 / パレードで笑顔をお届け",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l014",
+      "cardId": "c0183",
+      "name": "音乃瀬奏 / 潮風にのせる、笑顔のハーモニー",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l070",
+      "cardId": "c0120",
+      "name": "一条莉々華 / ずっきゅんばっきゅんLIVE♡",
+      "description": "全員のスコアサポート効果50%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果50%"
+        }
+      ]
+    },
+    {
+      "id": "l092",
+      "cardId": "c0145",
+      "name": "一条莉々華 / 深夜にひと息、CEOの限界飯",
+      "description": "ReGLOSSが2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g003",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ReGLOSSが2人以上"
+          },
+          "description": "ReGLOSSが2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l190",
+      "cardId": "c0010",
+      "name": "一条莉々華 / 夏夜を彩るBrilliant Smile",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l147",
+      "cardId": "c0167",
+      "name": "儒烏風亭らでん / cultural performer",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが20%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 20,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員の全パラメータが20%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
+      "id": "l186",
+      "cardId": "c0055",
+      "name": "儒烏風亭らでん / 叡智を灯し、アートに導く",
+      "description": "全員のセンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のセンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l189",
+      "cardId": "c0008",
+      "name": "儒烏風亭らでん / 高貴なるヴァンパイアの嗜み",
+      "description": "ReGLOSSが2人以上で全員のテクニックが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g003",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ReGLOSSが2人以上"
+          },
+          "description": "ReGLOSSが2人以上で全員のテクニックが135%UP"
+        }
+      ]
+    },
+    {
+      "id": "l039",
+      "cardId": "c0185",
+      "name": "轟はじめ / 番長の番長たる所以",
+      "description": "全員のテクニックが100%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 100,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のテクニックが100%UP"
+        }
+      ]
+    },
+    {
+      "id": "l108",
+      "cardId": "c0126",
+      "name": "轟はじめ / ガーリー番長のお裾分け",
+      "description": "全員のパフォーマンスが120%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 120,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のパフォーマンスが120%UP"
+        }
+      ]
+    },
+    {
+      "id": "l097",
+      "cardId": "c0148",
+      "name": "轟はじめ / 今宵開幕！あやかしダンシング",
+      "description": "ReGLOSSが2人以上で全員の全パラメータが50%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 50,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g003",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ReGLOSSが2人以上"
+          },
+          "description": "ReGLOSSが2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l085",
+      "name": "不知火フレア / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l033",
+      "name": "白銀ノエル / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l038",
+      "name": "宝鐘マリン / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l125",
+      "name": "角巻わため / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l199",
+      "name": "常闇トワ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l122",
+      "name": "姫森ルーナ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l087",
+      "name": "雪花ラミィ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l088",
+      "name": "桃鈴ねね / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l197",
+      "name": "獅白ぼたん / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l160",
+      "name": "尾丸ポルカ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l170",
+      "name": "ラプラス・ダークネス / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l036",
+      "name": "鷹嶺ルイ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l045",
+      "name": "博衣こより / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l131",
+      "name": "風真いろは / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l109",
+      "name": "アユンダ・リス / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l015",
+      "name": "ムーナ・ホシノヴァ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l124",
+      "name": "アイラニ・イオフィフティーン / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l046",
+      "name": "クレイジー・オリー / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l061",
+      "name": "アーニャ・メルフィッサ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l178",
+      "name": "パヴォリア・レイネ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l096",
+      "name": "ベスティア・ゼータ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l153",
+      "name": "カエラ・コヴァルスキア / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l117",
+      "name": "一伊那尓栖 / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l141",
+      "name": "IRyS / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l009",
+      "name": "オーロ・クロニー / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l100",
+      "name": "ハコス・ベールズ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l067",
+      "name": "シオリ・ノヴェラ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l159",
+      "name": "古石ビジュー / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l057",
+      "name": "ネリッサ・レイヴンクロフト / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l078",
+      "name": "フワワ・アビスガード / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l018",
+      "name": "モココ・アビスガード / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l167",
+      "name": "音乃瀬奏 / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l126",
+      "name": "一条莉々華 / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l168",
+      "name": "儒烏風亭らでん / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l132",
+      "name": "轟はじめ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l025",
+      "name": "百鬼あやめ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l134",
+      "name": "癒月ちょこ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l107",
+      "name": "大空スバル / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l193",
+      "name": "AZKi / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l140",
+      "name": "大神ミオ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l162",
+      "name": "さくらみこ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l145",
+      "name": "猫又おかゆ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l195",
+      "name": "戌神ころね / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l110",
+      "name": "星街すいせい / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l005",
+      "name": "ときのそら / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l129",
+      "name": "ロボ子さん / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l151",
+      "name": "アキ・ローゼンタール / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l019",
+      "name": "赤井はあと / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l004",
+      "name": "白上フブキ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l146",
+      "name": "夏色まつり / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l053",
+      "name": "兎田ぺこら / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l127",
+      "name": "こぼ・かなえる / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l179",
+      "name": "森カリオペ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    },
+    {
+      "id": "l006",
+      "name": "小鳥遊キアラ / デフォルト",
+      "description": "全員の全パラメータが15%UP",
+      "kind": "common",
+      "effects": [
+        {
+          "parameter": "all_parameter",
+          "percent": 15,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated"
+          },
+          "description": "全員の全パラメータが15%UP"
+        }
+      ]
+    }
+  ],
+  "publicVersion": "public-3e16356b1b44e673b760"
+}

@@ -1,0 +1,184 @@
+function hasAffiliationTargetPassive(card){return PassiveSkillFilter.matches(card,{condition:"",targets:["affiliation"],effects:[]});}
+// Catalog data and parameter interpretation remain shared and immutable.
+// Only independent user card settings are persisted by this page.
+async function renderCardCatalog(){
+  const status = document.querySelector('#catalogStatus');
+  if(!status) throw new Error('カードライブラリUIの必須要素がありません：#catalogStatus');
+  let catalog;
+  try{
+    catalog = await loadRuntimeCardCatalog();
+  }catch(error){
+    status.dataset.errorKind = 'data';
+    status.textContent = `カードデータを読み込めませんでした：${error.message}`;
+    return;
+  }
+  try{
+    const container = document.querySelector('#catalogCards');
+    const search = document.querySelector('#catalogSearch');
+    const rarityButtons = [...document.querySelectorAll('[data-catalog-rarity]')];
+    let rarity = '5';
+    let view = 'detail';
+    const spRoot = document.querySelector('#catalogSP');
+    const spTable = CatalogSPTable.mount(spRoot);
+    const statusRoot = document.querySelector('#catalogStats');
+    const statusTable = CatalogStatusTable.mount(statusRoot);
+    const activeRoot = document.querySelector('#catalogActive');
+    const activeTable = CatalogActiveTable.mount(activeRoot);
+    let selectedTalents=new Set();
+    const type = document.querySelector('#catalogType');
+    let skillSelection=PassiveSkillFilter.empty();
+    readUserCardStates(); // Validate existing settings before presenting editable controls.
+    for(const [selector, element] of [['#catalogCards',container], ['#catalogSearch',search], ['#catalogType',type]]){
+      if(!element) throw new Error(`必須要素がありません：${selector}`);
+    }
+    if(rarityButtons.map(button => button.dataset.catalogRarity).join(',') !== '5,4,3') throw new Error('レア度ボタン（★5・★4・★3）が不足、または順序が不正です。');
+    delete status.dataset.errorKind;
+    const render = () => {
+      const query = search.value.trim().toLocaleLowerCase();
+      const cards = sortCatalogCardsForDisplay(catalog.cards.filter(card =>
+        `${card.name} ${canonicalMemberName(card)}`.toLocaleLowerCase().includes(query) &&
+        (!selectedTalents.size || selectedTalents.has(card.member.mapping?.id)) &&
+        PassiveSkillFilter.matches(card,skillSelection) &&
+        String(card.classification.rarity.mapping.value) === rarity &&
+        (!type.value || card.classification.attributeType.mapping.value === type.value)), catalog.cards);
+      const userStates = readUserCardStates();
+      status.textContent = `${cards.length} / ${catalog.cards.length}枚`;
+      container.hidden = view !== 'detail';
+      spRoot.hidden = view !== 'sp';
+      statusRoot.hidden = view !== 'status';
+      activeRoot.hidden = view !== 'active';
+      container.replaceChildren();
+      if(view === 'sp'){ spTable.render(cards, userStates); return; }
+      if(view === 'status'){ statusTable.render(cards, userStates); return; }
+      if(view === 'active'){ activeTable.render(cards, userStates); return; }
+      for(const card of cards){
+        const panel = document.createElement('article');
+        panel.className = 'panel catalogCard';
+        panel.dataset.cardId = card.id;
+        // Detail-only decoration: reveal only a successfully decoded Full image.
+        const full = CardImageResolver.candidates(card.id).find(candidate => candidate.kind === 'full');
+        if(full){
+          const background = new Image();
+          background.onload = () => {
+            if(!panel.isConnected) return;
+            panel.style.backgroundImage = `linear-gradient(rgba(255,255,255,.88), rgba(255,255,255,.88)), url(${JSON.stringify(full.url)})`;
+            panel.classList.add('catalogFullBackground');
+          };
+          background.onerror = () => {
+            panel.style.removeProperty('background-image');
+            panel.classList.remove('catalogFullBackground');
+          };
+          background.src = full.url;
+        }
+        let userState = getUserCardState(card.id, userStates);
+        const ownedLabel = document.createElement('label'); ownedLabel.className = 'catalogOwned';
+        const owned = document.createElement('input'); owned.type = 'checkbox'; owned.dataset.catalogOwned = '';
+        owned.setAttribute('aria-label', `${card.name}を所持`);
+        ownedLabel.append(owned, document.createTextNode('所持'));
+        const saveStatus = document.createElement('p'); saveStatus.className = 'sub catalogSaveStatus';
+        saveStatus.setAttribute('role', 'status');
+        const change = patch => {
+          try{ userState = updateUserCardState(card.id, patch); saveStatus.textContent = ''; }
+          catch(error){ saveStatus.textContent = `保存できませんでした：${error.message}`; }
+          refresh();
+        };
+        const makeStepper = (field, title, max, dataKey) => {
+          const group = document.createElement('div'); group.className = 'catalogStepper';
+          group.setAttribute('role', 'group'); group.setAttribute('aria-label', `${card.name}の${title}`);
+          const caption = document.createElement('span'); caption.textContent = title;
+          const minus = document.createElement('button'); minus.type = 'button'; minus.textContent = '−';
+          minus.dataset.step = '-1'; minus.setAttribute('aria-label', `${card.name}の${title}を減らす`);
+          const value = document.createElement('output'); value.dataset[dataKey] = '';
+          value.setAttribute('aria-label', `${title}段階`); value.setAttribute('aria-live', 'polite');
+          const plus = document.createElement('button'); plus.type = 'button'; plus.textContent = '＋';
+          plus.dataset.step = '1'; plus.setAttribute('aria-label', `${card.name}の${title}を増やす`);
+          for(const [button, delta] of [[minus,-1],[plus,1]]) button.addEventListener('click', () => {
+            const next = userState[field] + delta;
+            if(next >= 0 && next <= max) change({[field]: next});
+          });
+          group.append(caption, minus, value, plus);
+          return {group, sync: () => {
+            value.value = String(userState[field]);
+            minus.disabled = userState[field] === 0; plus.disabled = userState[field] === max;
+          }};
+        };
+        const training = makeStepper('training', '特訓', 4, 'catalogTraining');
+        const opening = makeStepper('opening', '開花', 5, 'catalogBloom');
+        const basic = document.createElement('p'); basic.className = 'canonicalSlotStatus';
+        const growth = document.createElement('div'); growth.className = 'canonicalGrowth';
+        const preview = document.createElement('p');
+        preview.className = 'canonicalSlotStatus';
+        const refresh = () => {
+          owned.checked = userState.owned; training.sync(); opening.sync();
+          try{
+            const expansion = expandCanonicalBloom(card, userState.opening, catalog.dataset, userState.training);
+            basic.textContent = canonicalBasicText(expansion);
+            // Layout only: retain the shared adapter's computed values and skills.
+            const [parameters, ...skills] = canonicalEffectsText(expansion)
+              .replace(/\n(SP：[\s\S]*?)\n(P：[\s\S]*?)\n(A：[\s\S]*)$/, '\n$1\n$3\n$2')
+              .replace(/^(SP|A|P)：/gm, (_, label) => `${label} Lv.${expansion.levels[{SP:'special',A:'active',P:'passive'}[label]]}：`)
+              .split('\n');
+            const [pts, total] = parameters.split(' / TOTAL ');
+            const ptsLine = document.createElement('span');
+            ptsLine.className = 'catalogParameters';
+            ptsLine.textContent = pts;
+            const totalLine = document.createElement('span');
+            totalLine.className = 'catalogTotal';
+            totalLine.textContent = `TOTAL ${total}`;
+            preview.replaceChildren(ptsLine, document.createTextNode('\n'), totalLine,
+              document.createTextNode('\n' + skills.join('\n')));
+          }
+          catch(error){ preview.textContent = `表示できません：${error.message}`; }
+        };
+        owned.addEventListener('change', () => change({owned: owned.checked}));
+        growth.append(training.group, opening.group);
+        panel.append(basic, ownedLabel, growth, saveStatus, preview); container.append(panel);
+        refresh();
+      }
+      status.textContent = `${cards.length} / ${catalog.cards.length}枚`;
+    };
+    TalentFilter.mount(document.querySelector('#catalogTalentFilter'),{
+      members:HOLO_MEMBERS,
+      references:catalog.cards.map(card=>({talentId:card.member.mapping?.id,formalName:card.member.name,source:card.id})),
+      onApply:ids=>{selectedTalents=new Set(ids);render();}
+    });
+    SkillFilter.mount(document.querySelector('#catalogSkillFilter'),{onApply:selection=>{skillSelection=selection;render();}});
+    for(const button of document.querySelectorAll('[data-catalog-view]')) button.addEventListener('click', () => {
+      if(button.disabled) return;
+      view = button.dataset.catalogView;
+      for(const item of document.querySelectorAll('[data-catalog-view]')) item.setAttribute('aria-pressed', String(item === button));
+      render();
+    });
+    search.addEventListener('input', render);
+    for(const button of rarityButtons) button.addEventListener('click', () => {
+      rarity = button.dataset.catalogRarity;
+      for(const item of rarityButtons) item.setAttribute('aria-pressed', String(item === button));
+      render();
+    });
+    type.addEventListener('change', render);
+
+    render();
+    const exportButton = document.querySelector('#catalogExport');
+    const exportStatus = document.querySelector('#catalogExportStatus');
+    if(!exportButton || !exportStatus) throw new Error('エクスポートUIがありません。');
+    exportButton.disabled = false;
+    exportButton.addEventListener('click', () => {
+      let url;
+      try{
+        const snapshot = exportUserCardStates(catalog);
+        const blob = new Blob([JSON.stringify(snapshot, null, 2) + '\n'], {type: 'application/json'});
+        url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `holodori-cards-${snapshot.exportedAt.replace(/[:.]/g, '-')}.json`;
+        document.body.append(link); link.click(); link.remove();
+        exportStatus.textContent = `${snapshot.cards.filter(card => card.saved).length}枚の保存済み設定を出力しました。`;
+      }catch(error){ exportStatus.textContent = `出力できませんでした：${error.message}`; }
+      finally{ if(url) setTimeout(() => URL.revokeObjectURL(url), 1000); }
+    });
+  }catch(error){
+    status.dataset.errorKind = 'ui';
+    status.textContent = `カードライブラリのUIを初期化できませんでした：${error.message}`;
+  }
+}
+const cardCatalogReady = renderCardCatalog();

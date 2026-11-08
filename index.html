@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ホロドリ Active Timeline α</title>
+<link rel="stylesheet" href="style.css">
+<script src="site-navigation.js" defer></script>
+</head>
+<body>
+<main class="wrap">
+ <div class="panel">
+  <div class="pageHeader">
+    <div>
+      <h1>ホロドリ Active Timeline α</h1>
+      <a href="unit-simulator.html">次世代 統合シミュレーター（開発版）</a>
+      <div class="sub">
+        5枠を手入力して、Activeの発動候補タイミングとMAX評価値を可視化
+      </div>
+    </div>
+  </div>
+ </div>
+ <section class="panel">
+  <h2>編成保存・呼出</h2>
+  <label>リーダー<select id="formationLeader"></select></label>
+  <p class="sub">リーダーは保存・呼出のみで、現在のActive計算には参加しません。</p>
+  <label>編成名<input id="formationName" type="text" placeholder="編成名を入力"></label>
+  <button id="formationSave" type="button">編成保存（新規）</button>
+  <label>保存済み編成<select id="formationSelect"></select></label>
+  <button id="formationLoad" type="button">編成呼出</button>
+  <p class="sub">6枠ともライブラリのカードを選んで保存してください。手入力による変更、曲時間、発動頻度UPは編成には保存しません。呼出時は最新のカード情報を反映します。</p>
+  <p id="formationStatus" class="sub" role="status" aria-live="polite"></p>
+ </section>
+ <div class="panel top"><label>楽曲時間 (s)<input id="song" type="number" min="1" step="0.01" value="120"></label><div class="sub">初期値 120.00s ／ 表示は小数第2位、内部値は丸めません</div></div>
+ <div class="panel"><h2>編成・Active入力</h2><div id="cards" class="cards"></div>
+  <p class="sub">Special由来の通常Score Support率は未接続です。Special Timeline実装時に対応します。</p>
+  <p id="supportEvaluation" class="sub" role="status"></p>
+ </div>
+ <div class="optimizeArea">
+  <div class="optimizeTitle">最適化探索</div>
+  <div class="sub">探索で使用できる発動頻度UPの上限</div>
+
+  <div id="optimizeLimits" class="optimizeLimits"></div>
+
+  <button id="optimizeBtn" type="button">最適化探索</button>
+  <div id="optimizeResult" class="sub"></div>
+ </div>
+ <div class="panel"><div class="metrics"><div class="metric"><span class="sub">MAX発動スコア評価値</span><b id="max">0.00</b></div><div class="metric"><span class="sub">曲全体平均Active補正</span><b id="avg">+0.00%</b></div><div class="metric"><span class="sub">発動候補数</span><b id="count">0</b></div></div><div class="note">評価値 = ∫ max(発動中Active補正率) dt。重複区間は最も高い補正だけを採用します。</div></div>
+ <section class="panel">
+  <button id="copyActiveSnapshot" type="button">解析用JSONをコピー</button>
+  <p id="activeSnapshotStatus" class="sub" role="status" aria-live="polite"></p>
+  <label id="activeSnapshotFallback" hidden>解析用JSON（選択してコピーしてください）
+    <textarea id="activeSnapshotText" readonly rows="12" style="width:100%"></textarea>
+  </label>
+ </section>
+ <div class="panel"><h2>Activeタイムライン</h2><div class="timeline-scroll"><div id="timeline" class="timeline"></div></div><div id="detail">バーを選ぶと詳細を表示します。</div></div>
+ <section class="panel" id="randomSimulation">
+  <h2>発動率・スコア分散：乱数シミュレーション</h2>
+  <p class="sub">現在はユニットスコアをXとして扱い、Activeによる時間区間ごとのスコア倍率のみを反映した暫定シミュレーションです。Xは数値化せず、結果は Σ（秒数 × 倍率）X で表します。</p>
+  <p class="sub">Active基本効果のみ。Support・Passive・Special・Leader・Board・条件付き効果・ノーツ密度は含みません。各発動判定は独立に抽選します。</p>
+  <p class="randomProbability sub"></p>
+  <label>今回の試行数<select><option value="100">100</option><option value="1000" selected>1,000</option><option value="10000">10,000</option></select></label>
+  <button type="button">シミュレーション実行</button>
+  <button type="button" data-random-reset class="simulationReset">累積結果をリセット</button>
+  <p role="status" aria-live="polite">現在の5枠を対象に実行します。</p>
+  <div class="randomResults"></div>
+ </section>
+ <div id="cardLoadModal" class="cardLoadModal" hidden>
+  <div class="cardLoadBackdrop" data-close-card-modal></div>
+
+  <div class="cardLoadDialog">
+    <div class="cardLoadHeader">
+      <strong>メンバーカード呼出</strong>
+      <button type="button" data-close-card-modal>閉じる</button>
+    </div>
+
+    <div id="cardLoadTarget" class="sub"></div>
+
+    <div id="cardLoadList" class="cardLoadList"></div>
+  </div>
+</div>
+<div id="canonicalCardModal" class="cardLoadModal" hidden>
+  <div class="cardLoadBackdrop" data-close-canonical-card-modal></div>
+  <div class="cardLoadDialog" role="dialog" aria-modal="true" aria-labelledby="canonicalCardTitle">
+    <div class="cardLoadHeader">
+      <strong id="canonicalCardTitle">カード呼び出し</strong>
+      <button type="button" data-close-canonical-card-modal>閉じる</button>
+    </div>
+    <div id="canonicalCardTarget" class="sub"></div>
+    <p id="canonicalCardStatus" class="sub" role="status" aria-live="polite"></p>
+    <div id="canonicalCardList" class="canonicalCardList"></div>
+  </div>
+</div>
+<div id="cardSaveModal" class="modal" hidden>
+  <div class="modalPanel">
+
+    <div class="modalHeader">
+      <strong>カード保存</strong>
+
+      <button
+        type="button"
+        id="cardSaveClose"
+      >
+        ×
+      </button>
+    </div>
+
+    <div id="cardSaveTarget" class="modalTarget">
+      保存元：枠-
+    </div>
+
+    <div class="cardSaveForm">
+
+      <label>
+        カード名
+        <input
+          id="cardSaveName"
+          type="text"
+        >
+      </label>
+
+      <label>
+        レアリティ
+        <select id="cardSaveRarity">
+          <option value="3">★3</option>
+          <option value="4">★4</option>
+          <option value="5" selected>★5</option>
+        </select>
+      </label>
+
+      <label>
+        タイプ
+        <select id="cardSaveType">
+          <option value="" selected>未分類</option>
+          <option value="cute">キュート</option>
+          <option value="pure">ピュア</option>
+          <option value="happy">ハッピー</option>
+        </select>
+      </label>
+
+      <label>
+        特訓回数
+        <select id="cardSaveTraining">
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </label>
+
+      <p class="sub">ステータスはレアリティと特訓回数から算出する概算値です。Libraryで編集できます。</p>
+      <hr>
+
+      <strong>Active</strong>
+
+      <label>
+        周期(s)
+        <input
+          id="cardSaveInterval"
+          type="number"
+          min="0"
+          step="0.01"
+        >
+      </label>
+
+      <label>
+        確率
+        <select id="cardSaveProbability">
+          <option value="low">低</option>
+          <option value="mid">中</option>
+          <option value="high">高</option>
+        </select>
+      </label>
+
+      <label>
+        発動時間(s)
+        <input
+          id="cardSaveDuration"
+          type="number"
+          min="0"
+          step="0.01"
+        >
+      </label>
+
+      <label>
+        補正(%)
+        <input
+          id="cardSaveBoost"
+          type="number"
+          min="0"
+          step="0.01"
+        >
+      </label>
+
+    </div>
+
+    <div class="modalActions">
+      <button
+        type="button"
+        id="cardSaveCancel"
+      >
+        キャンセル
+      </button>
+
+      <button
+        type="button"
+        id="cardSaveConfirm"
+      >
+        Libraryに保存
+      </button>
+    </div>
+
+  </div>
+</div>
+<section class="panel" aria-label="データについて">
+  <h2>データについて</h2>
+  <p class="sub">P/T/Sは特訓上限の基礎値を個別に切り上げて分配し、開花補正後に再度切り上げます。TOTALは3項目の合計です。ボード・メモリー・編成補正は含みません。育成状態が不明な旧保存は「—」で表示します。</p>
+  <p class="sub">Activeは編成条件で倍率を置換します。現行モードではCOMBO40・LIFE600条件を成立として計算します。</p>
+</section>
+</main>
+<script src="members.js"></script>
+<script src="card-rules.js"></script>
+<script src="support-rules.js?v=53c7a9c97f74"></script>
+<script src="parameter-rules.js"></script>
+<script src="party-condition-resolver.js"></script><script src="active-conditional-rules.js"></script>
+<script src="canonical-card-adapter.js?v=ce7971b891c8"></script>
+<script src="activation-probability-rules.js"></script>
+<script src="active-timeline-engine.js"></script><script src="active-timeline-view.js?v=3760fdb5facd"></script>
+<script src="timeline-optimizer.js"></script>
+<script src="app.js"></script>
+<script src="active-random-simulation.js"></script><script src="simulation-accumulator.js"></script><script src="simulation-distribution-view.js"></script>
+<script src="active-random-ui.js"></script>
+<script src="formation-rules.js"></script>
+<script src="formation.js"></script>
+<script src="active-snapshot.js"></script>
+</body>
+</html>

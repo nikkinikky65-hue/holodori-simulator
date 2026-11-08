@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ホロドリ メンバーカードライブラリ</title>
+<link rel="stylesheet" href="style.css">
+<script src="site-navigation.js" defer></script>
+</head>
+
+<body>
+
+<main class="wrap">
+
+  <div class="panel">
+    <h1>メンバーカードライブラリ</h1>
+
+    <div class="sub">
+      所持しているメンバーカードを登録・管理します。
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>メンバーカード登録</h2>
+    <form id="memberCardForm" class="libraryCardForm">
+      <div id="talentPortraitBackdrop" class="talentPortraitBackdrop" aria-hidden="true"></div>
+      <input id="memberCardId" type="hidden">
+
+
+  <!-- =========================
+       基本情報
+  ========================== -->
+<section class="libraryFormSection libraryBasicSection">
+  <h3>基本情報</h3>
+
+  <div class="libraryBasicRow">
+    <label class="libraryField libraryMemberField">
+      <span class="libraryLabel">メンバー</span>
+      <select id="cardTalent" required>
+        <option value="">選択してください</option>
+      </select>
+    </label>
+
+    <label class="libraryField libraryNameField cardNameField">
+      <span class="libraryLabel">カード名</span>
+      <input id="cardName" type="text" placeholder="未分類">
+    </label>
+  </div>
+
+  <div class="libraryMetaRow">
+    <label class="libraryField libraryTypeField">
+      <span class="libraryLabel">タイプ</span>
+      <select id="cardType">
+        <option value="" selected>未登録</option>
+        <option value="cute">キュート</option>
+        <option value="pure">ピュア</option>
+        <option value="happy">ハッピー</option>
+      </select>
+    </label>
+
+    <label class="libraryField libraryRarityField">
+      <span class="libraryLabel">レア度</span>
+      <select id="cardRarity" required>
+        <option value="3">★3</option>
+        <option value="4">★4</option>
+        <option value="5" selected>★5</option>
+      </select>
+    </label>
+
+    <label class="libraryField libraryShortField">
+      <span class="libraryLabel">Lv</span>
+      <input id="cardLevel" type="number" min="1" step="1" readonly required class="libraryShortInput">
+    </label>
+
+    <label class="libraryField libraryShortField">
+      <span class="libraryLabel">特訓</span>
+      <input id="cardTraining" type="number" min="0" max="4" step="1" value="0" required class="libraryShortInput">
+    </label>
+
+    <label class="libraryField libraryShortField">
+      <span class="libraryLabel">開花</span>
+      <input id="cardBloom" type="number" min="0" max="5" step="1" value="0" required class="libraryShortInput">
+    </label>
+  </div>
+</section>
+
+  <!-- =========================
+       ステータス
+  ========================== -->
+<section class="libraryFormSection libraryStatusSection">
+  <h3>ステータス</h3>
+  <p id="statPresetNote" class="sub libraryPresetNote" aria-hidden="true"></p>
+
+  <div class="libraryStatusRow">
+    <label class="libraryField libraryStatField">
+      <span class="libraryLabel">TOTAL</span>
+      <input id="cardTotal" type="number" min="0" step="1" class="libraryShortInput">
+    </label>
+
+    <label class="libraryField libraryStatField">
+      <span class="libraryLabel">PERFORMANCE</span>
+      <input id="cardPerformance" type="number" min="0" step="1" class="libraryShortInput">
+    </label>
+
+    <label class="libraryField libraryStatField">
+      <span class="libraryLabel">TECHNIQUE</span>
+      <input id="cardTechnique" type="number" min="0" step="1" class="libraryShortInput">
+    </label>
+
+    <label class="libraryField libraryStatField">
+      <span class="libraryLabel">SENSE</span>
+      <input id="cardSense" type="number" min="0" step="1" class="libraryShortInput">
+    </label>
+  </div>
+</section>
+
+  <!-- =========================
+     スキル
+========================== -->
+
+<h3>スキル</h3>
+
+<div class="librarySkillsGrid">
+
+<!-- スペシャルスキル -->
+<section class="libraryFormSection librarySkillPanel librarySpecialPanel">
+  <h4>SPスキル</h4>
+
+  <div id="specialFixedEffects" class="librarySecondaryField"></div>
+  <div class="librarySkillRow specialAddEffectRow">
+    <select id="specialEffectAddType" aria-label="追加するSP効果">
+      <option value="">＋効果を追加</option>
+    </select>
+  </div>
+
+  <label class="libraryField librarySecondaryField">
+    <span class="libraryLabel">効果</span>
+    <textarea id="specialSkillDescription" rows="2"></textarea>
+  </label>
+</section>
+
+<!-- アクティブスキル -->
+<section class="libraryFormSection librarySkillPanel libraryActivePanel">
+  <h4>Aスキル</h4>
+
+  <div class="librarySkillMain librarySkillRow">
+    <div class="librarySkillBadge">A</div>
+
+    <label class="libraryField libraryMediumField">
+      <span class="libraryLabel">効果種別</span>
+      <select id="activeEffectType"></select>
+    </label>
+
+    <label class="libraryField libraryShortField">
+      <span class="libraryLabel">周期</span>
+      <div class="libraryValueWithUnit">
+        <input id="activeSkillInterval" type="number" min="0" step="0.01" class="libraryShortInput">
+        <span class="libraryUnit">秒毎</span>
+      </div>
+    </label>
+
+    <label class="libraryField libraryShortField">
+      <span class="libraryLabel">発動確率</span>
+      <select id="activeSkillProb" class="libraryCompactSelect">
+        <option value="low">低</option>
+        <option value="mid" selected>中</option>
+        <option value="high">高</option>
+      </select>
+    </label>
+
+    <label class="libraryField libraryShortField">
+      <span class="libraryLabel">発動時間</span>
+      <div class="libraryValueWithUnit">
+        <input id="activeSkillDuration" type="number" min="0" step="0.01" class="libraryShortInput">
+        <span class="libraryUnit">秒間</span>
+      </div>
+    </label>
+
+    <label class="libraryField libraryShortField">
+      <span class="libraryLabel">効果値</span>
+      <div class="libraryValueWithUnit">
+        <input id="activeSkillBoost" type="number" min="0" step="0.01" class="libraryShortInput">
+        <span class="libraryUnit">%</span>
+      </div>
+    </label>
+  </div>
+
+  <label class="libraryField librarySecondaryField">
+    <span class="libraryLabel">効果</span>
+    <textarea id="activeSkillDescription" rows="2"></textarea>
+  </label>
+</section>
+
+<!-- パッシブスキル -->
+<section class="libraryFormSection librarySkillPanel libraryPassivePanel">
+  <h4>Pスキル</h4>
+
+  <div class="libraryConditionExpression">
+    <div class="libraryConditionRow">
+      <label class="libraryField libraryMediumField">
+        <span class="libraryLabel">条件</span>
+        <select id="passiveCondition"></select>
+      </label>
+
+      <label class="libraryField libraryShortField">
+        <span class="libraryLabel">人数</span>
+        <div class="libraryValueWithUnit">
+          <input id="passiveConditionCount" type="number" min="0" step="1" value="0" class="libraryShortInput">
+          <span class="libraryUnit">人以上</span>
+        </div>
+      </label>
+
+      <span class="libraryConditionOperator">→</span>
+
+      <label class="libraryField libraryMediumField">
+        <span class="libraryLabel">対象</span>
+        <select id="passiveTarget"></select>
+      </label>
+
+      <label class="libraryField libraryShortField">
+        <span class="libraryLabel">人数</span>
+        <div class="libraryValueWithUnit">
+          <input id="passiveTargetCount" type="number" min="0" step="1" value="0" class="libraryShortInput">
+          <span class="libraryUnit">人</span>
+        </div>
+      </label>
+    </div>
+
+    <div class="libraryPassiveValueRow">
+      <label class="libraryField libraryMediumField">
+        <span class="libraryLabel">効果種別</span>
+        <select id="passiveEffectType"></select>
+      </label>
+
+      <label class="libraryField libraryShortField">
+        <span class="libraryLabel">効果値</span>
+        <div class="libraryValueWithUnit">
+          <input id="passiveValue" type="number" min="0" step="0.01" value="0" class="libraryShortInput">
+          <span class="libraryUnit">%</span>
+        </div>
+      </label>
+    </div>
+  </div>
+
+  <label id="passiveConditionTextLabel" hidden class="libraryField librarySecondaryField">
+    <span class="libraryLabel">条件原文</span>
+    <input id="passiveConditionText" type="text">
+  </label>
+
+  <label id="passiveTargetTextLabel" hidden class="libraryField librarySecondaryField">
+    <span class="libraryLabel">対象条件原文</span>
+    <input id="passiveTargetText" type="text">
+  </label>
+
+  <label class="libraryField librarySecondaryField">
+    <span class="libraryLabel">説明</span>
+    <textarea id="passiveDescription" rows="2"></textarea>
+  </label>
+
+  <details id="legacyPassiveDetails" hidden>
+    <summary>旧カードのステータス説明</summary>
+    <label class="libraryField librarySecondaryField">
+      <span class="libraryLabel">保存済みの説明（効果種別の自動推定はしません）</span>
+      <textarea id="passiveSkillDescription1" rows="3"></textarea>
+    </label>
+  </details>
+</section>
+</div>
+
+<!-- =========================
+     衣装スキル
+========================== -->
+
+<section class="libraryFormSection libraryOutfitSection">
+  <h3>衣装スキル</h3>
+
+  <label class="libraryField">
+    <span class="libraryLabel">スキル名</span>
+    <input id="outfitSkillName" type="text">
+  </label>
+
+  <label class="libraryField librarySecondaryField">
+    <span class="libraryLabel">効果</span>
+    <textarea id="outfitSkillDescription" rows="2"></textarea>
+  </label>
+</section>
+
+
+  <div class="libraryFormButtons">
+
+    <button type="submit">
+      保存
+    </button>
+
+    <button
+      id="memberCardExport"
+      type="button"
+    >
+      JSON出力
+    </button>
+
+    <button
+      id="memberCardCancel"
+      type="button"
+    >
+      キャンセル
+    </button>
+
+  </div>
+
+  <p
+    id="memberCardExportStatus"
+    class="sub"
+    role="status"
+    aria-live="polite"
+  ></p>
+
+</form>
+
+  </div>
+
+
+  <div class="panel">
+
+    <h2>登録済みカード</h2>
+
+    <div
+      id="memberCardCount"
+      class="sub"
+    ></div>
+
+    <div
+      id="memberCardList"
+      class="libraryList"
+    ></div>
+
+  </div>
+
+</main>
+
+
+<!-- 順番重要 -->
+<script src="members.js"></script>
+<script src="card-rules.js"></script>
+<script src="library.js"></script>
+
+</body>
+</html>
