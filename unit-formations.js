@@ -29,7 +29,7 @@ const unitFormationsReady=(async()=>{
   }
   function render(){
     const formations=UnitFormationStore.read().formations;container.replaceChildren();
-    if(!formations.length){container.append(el('p','保存済み編成はありません。開発中の統合シミュレーターで編成を保存してください。'));return;}
+    if(!formations.length){container.append(el('p','保存済み編成はありません。編成シミュレーターで編成を保存してください。'));return;}
     for(const f of formations){
       const panel=el('section');panel.className='panel savedFormation';panel.dataset.id=f.id;
       panel.append(el('h2',f.name),el('p','リーダー：'+(leaders.find(l=>l.id===f.snapshot.leaderId)?.name||(f.snapshot.leaderId?'リーダー情報を取得できません':'未設定'))));

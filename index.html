@@ -2,6 +2,9 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+<!-- Legacy A entry stays on disk; public visits always start at the catalog. -->
+<script>location.replace(new URL('card-catalog.html', location.href).href);</script>
+<meta http-equiv="refresh" content="0;url=card-catalog.html">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ホロドリ Active Timeline α</title>
 <link rel="stylesheet" href="style.css">
