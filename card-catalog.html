@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ホロドリ カードライブラリ</title>
+<title>カード一覧 | ホロドリ（ホロライブドリームス）</title>
+<meta name="description" content="ホロドリ（ホロライブドリームス）のカード情報を一覧で確認できます。タレントやスキルで絞り込み、育成条件に応じたステータス・SP・Activeを比較できます。">
+<link rel="canonical" href="https://nikkinikky65-hue.github.io/holodori-simulator/card-catalog.html">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="talent-filter.css">
 <link rel="stylesheet" href="skill-filter.css">
@@ -13,7 +15,8 @@
 <body>
 <main class="wrap">
 <section class="panel">
-  <h1>カードライブラリ</h1>
+  <h1>カード一覧</h1>
+<p class="sub">ホロドリ（ホロライブドリームス）のカード情報を一覧で確認できます。タレントやスキルで絞り込み、育成条件に応じたステータス・SP・Activeを比較できます。</p>
   <div class="catalogViewModes" role="group" aria-label="表示モード">
     <button type="button" data-catalog-view="detail" aria-pressed="true">詳細</button>
     <button type="button" data-catalog-view="status" aria-pressed="false">ステータス</button>
@@ -43,6 +46,7 @@
   <p class="sub">P/T/Sは特訓上限の基礎値を個別に切り上げて分配し、開花補正後に再度切り上げます。TOTALは3項目の合計です。ボード・メモリー・編成補正は含みません。育成状態が不明な旧保存は「—」で表示します。</p>
   <p class="sub">呼び出したカードのタイムライン・編成探索への反映はActive Skill基本効果のみです。条件付き効果・Passive・Special・Connect・表示ステータスは評価に反映しません。</p>
 </section>
+<noscript><nav aria-label="主要ページへのリンク"><a href="card-catalog.html">カード一覧</a> ｜ <a href="leader.html">リーダースキル一覧</a> ｜ <a href="library.html">カード登録・ライブラリ</a> ｜ <a href="unit-simulator.html">編成シミュレーター</a> ｜ <a href="event.html">イベント編成探索（開発中）</a> ｜ <a href="unit-formations.html">保存済み編成一覧</a></nav></noscript>
 </main>
 <script src="members.js"></script>
 <script src="canonical-card-adapter.js?v=ce7971b891c8"></script>

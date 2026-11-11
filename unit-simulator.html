@@ -2,11 +2,14 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ホロドリ 編成シミュレーター</title>
+<title>編成シミュレーター | ホロドリ（ホロライブドリームス）</title>
+<meta name="description" content="ホロドリ（ホロライブドリームス）の5人編成をシミュレーションできます。育成状態や各種補正を反映したパラメーター、Activeのタイムラインを確認し、編成を保存・復元できます。">
+<link rel="canonical" href="https://nikkinikky65-hue.github.io/holodori-simulator/unit-simulator.html">
 <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="unit-parameter-comparison.css"><script src="site-navigation.js" defer></script>
 </head>
 <body><main class="wrap" id="unitSimulator">
 <section class="panel"><h1>編成シミュレーター</h1>
+<p class="sub">ホロドリ（ホロライブドリームス）の5人編成をシミュレーションできます。育成状態や各種補正を反映したパラメーター、Activeのタイムラインを確認し、編成を保存・復元できます。</p>
 <p class="sub">ActiveのCOMBO40・LIFE600条件は成立として計算します。</p>
 <p id="unitStatus" role="status">カードデータを読み込み中…</p></section>
 <div class="unitWorkspace"><aside class="panel unitFormationPanel" aria-label="編成保存">
@@ -39,7 +42,8 @@
 <button id="unitRun" type="button" disabled>シミュレーション実行</button>
 <button id="unitResetSimulation" type="button" class="simulationReset">累積結果をリセット</button>
 <p id="unitResultStatus" role="status"></p><div id="unitResult"></div></section>
-</div></div></main>
+</div></div><noscript><nav aria-label="主要ページへのリンク"><a href="card-catalog.html">カード一覧</a> ｜ <a href="leader.html">リーダースキル一覧</a> ｜ <a href="library.html">カード登録・ライブラリ</a> ｜ <a href="unit-simulator.html">編成シミュレーター</a> ｜ <a href="event.html">イベント編成探索（開発中）</a> ｜ <a href="unit-formations.html">保存済み編成一覧</a></nav></noscript>
+</main>
 <script src="members.js"></script><script src="party-condition-resolver.js"></script><script src="active-conditional-rules.js"></script>
 <script src="canonical-card-adapter.js?v=ce7971b891c8"></script>
 <script src="card-rules.js"></script><script src="parameter-rules.js"></script>
