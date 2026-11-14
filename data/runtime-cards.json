@@ -1,10 +1,11 @@
 {
   "format": "holodori-runtime-catalog-v1",
   "dataset": {
-    "version": "public-3e16356b1b44e673b760",
-    "publicVersion": "public-3e16356b1b44e673b760",
+    "version": "public-96ef873677838402eb1b",
+    "publicVersion": "public-96ef873677838402eb1b",
     "compatibleVersions": [
-      "public-3e16356b1b44e673b760"
+      "public-3e16356b1b44e673b760",
+      "public-96ef873677838402eb1b"
     ]
   },
   "cards": [
@@ -2036,6 +2037,377 @@
           "performancePermilMultiply": 430,
           "techniquePermilMultiply": 302,
           "sensePermilMultiply": 268
+        },
+        "statStatus": "raw-inputs-only-formula-unresolved"
+      }
+    },
+    {
+      "id": "c0205",
+      "name": "高性能なボクと紅葉デート",
+      "member": {
+        "name": "ロボ子さん",
+        "mapping": {
+          "status": "candidate",
+          "id": "robocosan",
+          "basis": "unique-exact-ja-name"
+        }
+      },
+      "classification": {
+        "rarity": {
+          "raw": "rarity5",
+          "mapping": {
+            "value": 5,
+            "status": "candidate"
+          }
+        },
+        "attributeType": {
+          "raw": "pure",
+          "mapping": {
+            "value": "pure",
+            "status": "candidate"
+          }
+        }
+      },
+      "skills": {
+        "passive": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {},
+              "description": "[attribute=pure]ピュアタイプ[/attribute]2人のスコアサポート効果8%",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_supportBoost",
+                  "value": "80"
+                },
+                "description": "[attribute=pure]ピュアタイプ[/attribute]2人のスコアサポート効果8%"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "pure"
+                  }
+                ],
+                "description": "[attribute=pure]ピュアタイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            },
+            {
+              "level": 2,
+              "raw": {},
+              "description": "[attribute=pure]ピュアタイプ[/attribute]2人のスコアサポート効果[highlight]11[/highlight]%",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_supportBoost",
+                  "value": "110"
+                },
+                "description": "[attribute=pure]ピュアタイプ[/attribute]2人のスコアサポート効果11%"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "pure"
+                  }
+                ],
+                "description": "[attribute=pure]ピュアタイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            }
+          ]
+        },
+        "active": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "coolTimeMillisecond": 33000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 12000
+              },
+              "description": "33秒毎に中確率で12秒間スコアが50%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上でスコアが100%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "500"
+                },
+                "description": "スコアが50%UP"
+              },
+              "conditionalOverrides": [
+                {
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_attributeCount",
+                        "threshold": "2",
+                        "cardAttributeType": "pure"
+                      }
+                    ],
+                    "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  },
+                  "replacementEffect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_scoreBoost",
+                      "value": "1000"
+                    },
+                    "description": "スコアが100%UP"
+                  }
+                }
+              ],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            },
+            {
+              "level": 2,
+              "raw": {
+                "coolTimeMillisecond": 33000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 12000
+              },
+              "description": "33秒毎に中確率で12秒間スコアが[highlight]60[/highlight]%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上でスコアが[highlight]120[/highlight]%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "600"
+                },
+                "description": "スコアが60%UP"
+              },
+              "conditionalOverrides": [
+                {
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_attributeCount",
+                        "threshold": "2",
+                        "cardAttributeType": "pure"
+                      }
+                    ],
+                    "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  },
+                  "replacementEffect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_scoreBoost",
+                      "value": "1200"
+                    },
+                    "description": "スコアが120%UP"
+                  }
+                }
+              ],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            }
+          ]
+        },
+        "special": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "effectDurationMillisecond": 12000
+              },
+              "description": "12秒間スコアサポート効果100%\nスキル発動率が35%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1000"
+                    },
+                    "description": "スコアサポート効果100%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "350"
+                    },
+                    "description": "スキル発動率が35%UP"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            },
+            {
+              "level": 2,
+              "raw": {
+                "effectDurationMillisecond": 12000
+              },
+              "description": "12秒間スコアサポート効果[highlight]120[/highlight]%\nスキル発動率が[highlight]40[/highlight]%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1200"
+                    },
+                    "description": "スコアサポート効果120%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "400"
+                    },
+                    "description": "スキル発動率が40%UP"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            }
+          ]
+        }
+      },
+      "progression": {
+        "bloomSteps": [
+          {
+            "step": 1,
+            "effectType": "growth_activeLevel",
+            "value": "2"
+          },
+          {
+            "step": 2,
+            "effectType": "growth_allBoost",
+            "value": "100"
+          },
+          {
+            "step": 3,
+            "effectType": "growth_specialLevel",
+            "value": "2"
+          },
+          {
+            "step": 4,
+            "effectType": "growth_passiveLevel",
+            "value": "2"
+          },
+          {
+            "step": 5,
+            "effectType": "growth_connectLevel",
+            "value": "2"
+          }
+        ],
+        "trainingStages": [
+          {
+            "stage": 0,
+            "levelCap": 40
+          },
+          {
+            "stage": 1,
+            "levelCap": 50
+          },
+          {
+            "stage": 2,
+            "levelCap": 60
+          },
+          {
+            "stage": 3,
+            "levelCap": 70
+          },
+          {
+            "stage": 4,
+            "levelCap": 80
+          }
+        ],
+        "statSnapshots": [
+          {
+            "level": 40,
+            "raw": {
+              "parameterBaseValue": "13483"
+            }
+          },
+          {
+            "level": 50,
+            "raw": {
+              "parameterBaseValue": "16002"
+            }
+          },
+          {
+            "level": 60,
+            "raw": {
+              "parameterBaseValue": "18522"
+            }
+          },
+          {
+            "level": 70,
+            "raw": {
+              "parameterBaseValue": "21042"
+            }
+          },
+          {
+            "level": 80,
+            "raw": {
+              "parameterBaseValue": "23562"
+            }
+          }
+        ],
+        "parameterInputs": {
+          "performancePermilMultiply": 268,
+          "techniquePermilMultiply": 302,
+          "sensePermilMultiply": 430
         },
         "statStatus": "raw-inputs-only-formula-unresolved"
       }
@@ -19759,6 +20131,297 @@
       }
     },
     {
+      "id": "c0209",
+      "name": "ご機嫌ステップでおめかし散歩",
+      "member": {
+        "name": "兎田ぺこら",
+        "mapping": {
+          "status": "candidate",
+          "id": "usada_pekora",
+          "basis": "unique-exact-ja-name"
+        }
+      },
+      "classification": {
+        "rarity": {
+          "raw": "rarity5",
+          "mapping": {
+            "value": 5,
+            "status": "candidate"
+          }
+        },
+        "attributeType": {
+          "raw": "pure",
+          "mapping": {
+            "value": "pure",
+            "status": "candidate"
+          }
+        }
+      },
+      "skills": {
+        "passive": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {},
+              "description": "[attribute=pure]ピュアタイプ[/attribute]2人のスコアサポート効果8%",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_supportBoost",
+                  "value": "80"
+                },
+                "description": "[attribute=pure]ピュアタイプ[/attribute]2人のスコアサポート効果8%"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "pure"
+                  }
+                ],
+                "description": "[attribute=pure]ピュアタイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            },
+            {
+              "level": 2,
+              "raw": {},
+              "description": "[attribute=pure]ピュアタイプ[/attribute]2人のスコアサポート効果[highlight]11[/highlight]%",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_supportBoost",
+                  "value": "110"
+                },
+                "description": "[attribute=pure]ピュアタイプ[/attribute]2人のスコアサポート効果11%"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "pure"
+                  }
+                ],
+                "description": "[attribute=pure]ピュアタイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            }
+          ]
+        },
+        "active": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "coolTimeMillisecond": 25000,
+                "activationProbabilityPermilMultiply": 550,
+                "effectDurationMillisecond": 8000
+              },
+              "description": "25秒毎に高確率で8秒間スコアが105%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "1050"
+                },
+                "description": "スコアが105%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "high",
+                "basis": "localized-description"
+              }
+            },
+            {
+              "level": 2,
+              "raw": {
+                "coolTimeMillisecond": 25000,
+                "activationProbabilityPermilMultiply": 550,
+                "effectDurationMillisecond": 8000
+              },
+              "description": "25秒毎に高確率で8秒間スコアが[highlight]125[/highlight]%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "1250"
+                },
+                "description": "スコアが125%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "high",
+                "basis": "localized-description"
+              }
+            }
+          ]
+        },
+        "special": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "effectDurationMillisecond": 11000
+              },
+              "description": "11秒間スコアサポート効果120%",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1200"
+                    },
+                    "description": "スコアサポート効果120%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            },
+            {
+              "level": 2,
+              "raw": {
+                "effectDurationMillisecond": 11000
+              },
+              "description": "11秒間スコアサポート効果[highlight]145[/highlight]%",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1450"
+                    },
+                    "description": "スコアサポート効果145%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            }
+          ]
+        }
+      },
+      "progression": {
+        "bloomSteps": [
+          {
+            "step": 1,
+            "effectType": "growth_activeLevel",
+            "value": "2"
+          },
+          {
+            "step": 2,
+            "effectType": "growth_allBoost",
+            "value": "100"
+          },
+          {
+            "step": 3,
+            "effectType": "growth_specialLevel",
+            "value": "2"
+          },
+          {
+            "step": 4,
+            "effectType": "growth_passiveLevel",
+            "value": "2"
+          },
+          {
+            "step": 5,
+            "effectType": "growth_connectLevel",
+            "value": "2"
+          }
+        ],
+        "trainingStages": [
+          {
+            "stage": 0,
+            "levelCap": 40
+          },
+          {
+            "stage": 1,
+            "levelCap": 50
+          },
+          {
+            "stage": 2,
+            "levelCap": 60
+          },
+          {
+            "stage": 3,
+            "levelCap": 70
+          },
+          {
+            "stage": 4,
+            "levelCap": 80
+          }
+        ],
+        "statSnapshots": [
+          {
+            "level": 40,
+            "raw": {
+              "parameterBaseValue": "13454"
+            }
+          },
+          {
+            "level": 50,
+            "raw": {
+              "parameterBaseValue": "15964"
+            }
+          },
+          {
+            "level": 60,
+            "raw": {
+              "parameterBaseValue": "18474"
+            }
+          },
+          {
+            "level": 70,
+            "raw": {
+              "parameterBaseValue": "20992"
+            }
+          },
+          {
+            "level": 80,
+            "raw": {
+              "parameterBaseValue": "23512"
+            }
+          }
+        ],
+        "parameterInputs": {
+          "performancePermilMultiply": 263,
+          "techniquePermilMultiply": 297,
+          "sensePermilMultiply": 440
+        },
+        "statStatus": "raw-inputs-only-formula-unresolved"
+      }
+    },
+    {
       "id": "c0105",
       "name": "We are hololive!",
       "member": {
@@ -30238,6 +30901,347 @@
       }
     },
     {
+      "id": "c0208",
+      "name": "ビタミンカラーの落ち葉シャワー",
+      "member": {
+        "name": "桃鈴ねね",
+        "mapping": {
+          "status": "candidate",
+          "id": "momosuzu_nene",
+          "basis": "unique-exact-ja-name"
+        }
+      },
+      "classification": {
+        "rarity": {
+          "raw": "rarity5",
+          "mapping": {
+            "value": 5,
+            "status": "candidate"
+          }
+        },
+        "attributeType": {
+          "raw": "happy",
+          "mapping": {
+            "value": "happy",
+            "status": "candidate"
+          }
+        }
+      },
+      "skills": {
+        "passive": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {},
+              "description": "5期生2人のテクニックが32%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_techniqueBoost",
+                  "value": "320"
+                },
+                "description": "5期生2人のテクニックが32%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_group",
+                    "targetCount": 2,
+                    "characterGroupingId": "g002"
+                  }
+                ],
+                "description": "5期生2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            },
+            {
+              "level": 2,
+              "raw": {},
+              "description": "5期生2人のテクニックが[highlight]43[/highlight]%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_techniqueBoost",
+                  "value": "430"
+                },
+                "description": "5期生2人のテクニックが43%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_group",
+                    "targetCount": 2,
+                    "characterGroupingId": "g002"
+                  }
+                ],
+                "description": "5期生2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            }
+          ]
+        },
+        "active": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "coolTimeMillisecond": 17000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 6000
+              },
+              "description": "17秒毎に中確率で6秒間スコアが100%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "1000"
+                },
+                "description": "スコアが100%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            },
+            {
+              "level": 2,
+              "raw": {
+                "coolTimeMillisecond": 17000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 6000
+              },
+              "description": "17秒毎に中確率で6秒間スコアが[highlight]120[/highlight]%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "1200"
+                },
+                "description": "スコアが120%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            }
+          ]
+        },
+        "special": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "effectDurationMillisecond": 12000
+              },
+              "description": "12秒間スコアサポート効果100%\n5期生が2人以上でスキル発動率が40%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1000"
+                    },
+                    "description": "スコアサポート効果100%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "400"
+                    },
+                    "description": "スキル発動率が40%UP"
+                  },
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_groupCount",
+                        "threshold": "2",
+                        "characterGroupingId": "g002"
+                      }
+                    ],
+                    "description": "5期生が2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            },
+            {
+              "level": 2,
+              "raw": {
+                "effectDurationMillisecond": 12000
+              },
+              "description": "12秒間スコアサポート効果[highlight]120[/highlight]%\n5期生が2人以上でスキル発動率が[highlight]45[/highlight]%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1200"
+                    },
+                    "description": "スコアサポート効果120%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "450"
+                    },
+                    "description": "スキル発動率が45%UP"
+                  },
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_groupCount",
+                        "threshold": "2",
+                        "characterGroupingId": "g002"
+                      }
+                    ],
+                    "description": "5期生が2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            }
+          ]
+        }
+      },
+      "progression": {
+        "bloomSteps": [
+          {
+            "step": 1,
+            "effectType": "growth_activeLevel",
+            "value": "2"
+          },
+          {
+            "step": 2,
+            "effectType": "growth_allBoost",
+            "value": "100"
+          },
+          {
+            "step": 3,
+            "effectType": "growth_specialLevel",
+            "value": "2"
+          },
+          {
+            "step": 4,
+            "effectType": "growth_passiveLevel",
+            "value": "2"
+          },
+          {
+            "step": 5,
+            "effectType": "growth_connectLevel",
+            "value": "2"
+          }
+        ],
+        "trainingStages": [
+          {
+            "stage": 0,
+            "levelCap": 40
+          },
+          {
+            "stage": 1,
+            "levelCap": 50
+          },
+          {
+            "stage": 2,
+            "levelCap": 60
+          },
+          {
+            "stage": 3,
+            "levelCap": 70
+          },
+          {
+            "stage": 4,
+            "levelCap": 80
+          }
+        ],
+        "statSnapshots": [
+          {
+            "level": 40,
+            "raw": {
+              "parameterBaseValue": "13483"
+            }
+          },
+          {
+            "level": 50,
+            "raw": {
+              "parameterBaseValue": "16002"
+            }
+          },
+          {
+            "level": 60,
+            "raw": {
+              "parameterBaseValue": "18522"
+            }
+          },
+          {
+            "level": 70,
+            "raw": {
+              "parameterBaseValue": "21042"
+            }
+          },
+          {
+            "level": 80,
+            "raw": {
+              "parameterBaseValue": "23562"
+            }
+          }
+        ],
+        "parameterInputs": {
+          "performancePermilMultiply": 302,
+          "techniquePermilMultiply": 430,
+          "sensePermilMultiply": 268
+        },
+        "statStatus": "raw-inputs-only-formula-unresolved"
+      }
+    },
+    {
       "id": "c0144",
       "name": "We are hololive!",
       "member": {
@@ -39238,6 +40242,347 @@
       }
     },
     {
+      "id": "c0203",
+      "name": "うとうと気分で身支度を",
+      "member": {
+        "name": "アユンダ・リス",
+        "mapping": {
+          "status": "candidate",
+          "id": "ayunda_risu",
+          "basis": "unique-exact-ja-name"
+        }
+      },
+      "classification": {
+        "rarity": {
+          "raw": "rarity5",
+          "mapping": {
+            "value": 5,
+            "status": "candidate"
+          }
+        },
+        "attributeType": {
+          "raw": "pure",
+          "mapping": {
+            "value": "pure",
+            "status": "candidate"
+          }
+        }
+      },
+      "skills": {
+        "passive": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {},
+              "description": "ID1期生2人のセンスが32%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_senseBoost",
+                  "value": "320"
+                },
+                "description": "ID1期生2人のセンスが32%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_group",
+                    "targetCount": 2,
+                    "characterGroupingId": "g006"
+                  }
+                ],
+                "description": "ID1期生2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            },
+            {
+              "level": 2,
+              "raw": {},
+              "description": "ID1期生2人のセンスが[highlight]43[/highlight]%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_senseBoost",
+                  "value": "430"
+                },
+                "description": "ID1期生2人のセンスが43%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_group",
+                    "targetCount": 2,
+                    "characterGroupingId": "g006"
+                  }
+                ],
+                "description": "ID1期生2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            }
+          ]
+        },
+        "active": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "coolTimeMillisecond": 26000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 10000
+              },
+              "description": "26秒毎に中確率で10秒間スコアが90%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "900"
+                },
+                "description": "スコアが90%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            },
+            {
+              "level": 2,
+              "raw": {
+                "coolTimeMillisecond": 26000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 10000
+              },
+              "description": "26秒毎に中確率で10秒間スコアが[highlight]110[/highlight]%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "1100"
+                },
+                "description": "スコアが110%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            }
+          ]
+        },
+        "special": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "effectDurationMillisecond": 10000
+              },
+              "description": "10秒間スコアサポート効果120%\nID1期生が2人以上でスキル発動率が45%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1200"
+                    },
+                    "description": "スコアサポート効果120%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "450"
+                    },
+                    "description": "スキル発動率が45%UP"
+                  },
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_groupCount",
+                        "threshold": "2",
+                        "characterGroupingId": "g006"
+                      }
+                    ],
+                    "description": "ID1期生が2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            },
+            {
+              "level": 2,
+              "raw": {
+                "effectDurationMillisecond": 10000
+              },
+              "description": "10秒間スコアサポート効果[highlight]145[/highlight]%\nID1期生が2人以上でスキル発動率が[highlight]55[/highlight]%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1450"
+                    },
+                    "description": "スコアサポート効果145%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "550"
+                    },
+                    "description": "スキル発動率が55%UP"
+                  },
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_groupCount",
+                        "threshold": "2",
+                        "characterGroupingId": "g006"
+                      }
+                    ],
+                    "description": "ID1期生が2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            }
+          ]
+        }
+      },
+      "progression": {
+        "bloomSteps": [
+          {
+            "step": 1,
+            "effectType": "growth_activeLevel",
+            "value": "2"
+          },
+          {
+            "step": 2,
+            "effectType": "growth_allBoost",
+            "value": "100"
+          },
+          {
+            "step": 3,
+            "effectType": "growth_specialLevel",
+            "value": "2"
+          },
+          {
+            "step": 4,
+            "effectType": "growth_passiveLevel",
+            "value": "2"
+          },
+          {
+            "step": 5,
+            "effectType": "growth_connectLevel",
+            "value": "2"
+          }
+        ],
+        "trainingStages": [
+          {
+            "stage": 0,
+            "levelCap": 40
+          },
+          {
+            "stage": 1,
+            "levelCap": 50
+          },
+          {
+            "stage": 2,
+            "levelCap": 60
+          },
+          {
+            "stage": 3,
+            "levelCap": 70
+          },
+          {
+            "stage": 4,
+            "levelCap": 80
+          }
+        ],
+        "statSnapshots": [
+          {
+            "level": 40,
+            "raw": {
+              "parameterBaseValue": "13483"
+            }
+          },
+          {
+            "level": 50,
+            "raw": {
+              "parameterBaseValue": "16002"
+            }
+          },
+          {
+            "level": 60,
+            "raw": {
+              "parameterBaseValue": "18522"
+            }
+          },
+          {
+            "level": 70,
+            "raw": {
+              "parameterBaseValue": "21042"
+            }
+          },
+          {
+            "level": 80,
+            "raw": {
+              "parameterBaseValue": "23562"
+            }
+          }
+        ],
+        "parameterInputs": {
+          "performancePermilMultiply": 302,
+          "techniquePermilMultiply": 268,
+          "sensePermilMultiply": 430
+        },
+        "statStatus": "raw-inputs-only-formula-unresolved"
+      }
+    },
+    {
       "id": "c0077",
       "name": "We are hololive!",
       "member": {
@@ -40229,6 +41574,377 @@
       }
     },
     {
+      "id": "c0206",
+      "name": "星瞬く夜、ゆったりバスタイム",
+      "member": {
+        "name": "ムーナ・ホシノヴァ",
+        "mapping": {
+          "status": "candidate",
+          "id": "moona_hoshinova",
+          "basis": "unique-exact-ja-name"
+        }
+      },
+      "classification": {
+        "rarity": {
+          "raw": "rarity5",
+          "mapping": {
+            "value": 5,
+            "status": "candidate"
+          }
+        },
+        "attributeType": {
+          "raw": "happy",
+          "mapping": {
+            "value": "happy",
+            "status": "candidate"
+          }
+        }
+      },
+      "skills": {
+        "passive": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {},
+              "description": "[attribute=happy]ハッピータイプ[/attribute]2人のスコアサポート効果8%",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_supportBoost",
+                  "value": "80"
+                },
+                "description": "[attribute=happy]ハッピータイプ[/attribute]2人のスコアサポート効果8%"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "happy"
+                  }
+                ],
+                "description": "[attribute=happy]ハッピータイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            },
+            {
+              "level": 2,
+              "raw": {},
+              "description": "[attribute=happy]ハッピータイプ[/attribute]2人のスコアサポート効果[highlight]11[/highlight]%",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_supportBoost",
+                  "value": "110"
+                },
+                "description": "[attribute=happy]ハッピータイプ[/attribute]2人のスコアサポート効果11%"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "happy"
+                  }
+                ],
+                "description": "[attribute=happy]ハッピータイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            }
+          ]
+        },
+        "active": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "coolTimeMillisecond": 33000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 12000
+              },
+              "description": "33秒毎に中確率で12秒間スコアが50%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上でスコアが100%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "500"
+                },
+                "description": "スコアが50%UP"
+              },
+              "conditionalOverrides": [
+                {
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_attributeCount",
+                        "threshold": "2",
+                        "cardAttributeType": "happy"
+                      }
+                    ],
+                    "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  },
+                  "replacementEffect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_scoreBoost",
+                      "value": "1000"
+                    },
+                    "description": "スコアが100%UP"
+                  }
+                }
+              ],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            },
+            {
+              "level": 2,
+              "raw": {
+                "coolTimeMillisecond": 33000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 12000
+              },
+              "description": "33秒毎に中確率で12秒間スコアが[highlight]60[/highlight]%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上でスコアが[highlight]120[/highlight]%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "600"
+                },
+                "description": "スコアが60%UP"
+              },
+              "conditionalOverrides": [
+                {
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_attributeCount",
+                        "threshold": "2",
+                        "cardAttributeType": "happy"
+                      }
+                    ],
+                    "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  },
+                  "replacementEffect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_scoreBoost",
+                      "value": "1200"
+                    },
+                    "description": "スコアが120%UP"
+                  }
+                }
+              ],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            }
+          ]
+        },
+        "special": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "effectDurationMillisecond": 15000
+              },
+              "description": "15秒間スコアサポート効果80%\nスキル発動率が25%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "800"
+                    },
+                    "description": "スコアサポート効果80%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "250"
+                    },
+                    "description": "スキル発動率が25%UP"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            },
+            {
+              "level": 2,
+              "raw": {
+                "effectDurationMillisecond": 15000
+              },
+              "description": "15秒間スコアサポート効果[highlight]95[/highlight]%\nスキル発動率が[highlight]35[/highlight]%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "950"
+                    },
+                    "description": "スコアサポート効果95%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "350"
+                    },
+                    "description": "スキル発動率が35%UP"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            }
+          ]
+        }
+      },
+      "progression": {
+        "bloomSteps": [
+          {
+            "step": 1,
+            "effectType": "growth_activeLevel",
+            "value": "2"
+          },
+          {
+            "step": 2,
+            "effectType": "growth_allBoost",
+            "value": "100"
+          },
+          {
+            "step": 3,
+            "effectType": "growth_specialLevel",
+            "value": "2"
+          },
+          {
+            "step": 4,
+            "effectType": "growth_passiveLevel",
+            "value": "2"
+          },
+          {
+            "step": 5,
+            "effectType": "growth_connectLevel",
+            "value": "2"
+          }
+        ],
+        "trainingStages": [
+          {
+            "stage": 0,
+            "levelCap": 40
+          },
+          {
+            "stage": 1,
+            "levelCap": 50
+          },
+          {
+            "stage": 2,
+            "levelCap": 60
+          },
+          {
+            "stage": 3,
+            "levelCap": 70
+          },
+          {
+            "stage": 4,
+            "levelCap": 80
+          }
+        ],
+        "statSnapshots": [
+          {
+            "level": 40,
+            "raw": {
+              "parameterBaseValue": "13483"
+            }
+          },
+          {
+            "level": 50,
+            "raw": {
+              "parameterBaseValue": "16002"
+            }
+          },
+          {
+            "level": 60,
+            "raw": {
+              "parameterBaseValue": "18522"
+            }
+          },
+          {
+            "level": 70,
+            "raw": {
+              "parameterBaseValue": "21042"
+            }
+          },
+          {
+            "level": 80,
+            "raw": {
+              "parameterBaseValue": "23562"
+            }
+          }
+        ],
+        "parameterInputs": {
+          "performancePermilMultiply": 430,
+          "techniquePermilMultiply": 302,
+          "sensePermilMultiply": 268
+        },
+        "statStatus": "raw-inputs-only-formula-unresolved"
+      }
+    },
+    {
       "id": "c0190",
       "name": "We are hololive!",
       "member": {
@@ -41215,6 +42931,319 @@
           "performancePermilMultiply": 302,
           "techniquePermilMultiply": 430,
           "sensePermilMultiply": 268
+        },
+        "statStatus": "raw-inputs-only-formula-unresolved"
+      }
+    },
+    {
+      "id": "c0202",
+      "name": "陽だまりぽかぽかスマイル",
+      "member": {
+        "name": "アイラニ・イオフィフティーン",
+        "mapping": {
+          "status": "candidate",
+          "id": "airani_iofifteen",
+          "basis": "unique-exact-ja-name"
+        }
+      },
+      "classification": {
+        "rarity": {
+          "raw": "rarity5",
+          "mapping": {
+            "value": 5,
+            "status": "candidate"
+          }
+        },
+        "attributeType": {
+          "raw": "cute",
+          "mapping": {
+            "value": "cute",
+            "status": "candidate"
+          }
+        }
+      },
+      "skills": {
+        "passive": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {},
+              "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で[attribute=cute]キュートタイプ[/attribute]2人のパフォーマンスが32%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_performanceBoost",
+                  "value": "320"
+                },
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人のパフォーマンスが32%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "cute"
+                  }
+                ],
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "observed",
+                "clauses": [
+                  {
+                    "number": 1,
+                    "type": "condition_attributeCount",
+                    "threshold": "2",
+                    "cardAttributeType": "cute"
+                  }
+                ],
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で",
+                "resolutionClass": "formation-dependent",
+                "evaluationMode": "resolve-from-formation",
+                "evaluationStatus": "not-evaluated",
+                "referenceState": "present"
+              },
+              "calculationStatus": "deferred"
+            },
+            {
+              "level": 2,
+              "raw": {},
+              "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で[attribute=cute]キュートタイプ[/attribute]2人のパフォーマンスが[highlight]43[/highlight]%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_performanceBoost",
+                  "value": "430"
+                },
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人のパフォーマンスが43%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "cute"
+                  }
+                ],
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "observed",
+                "clauses": [
+                  {
+                    "number": 1,
+                    "type": "condition_attributeCount",
+                    "threshold": "2",
+                    "cardAttributeType": "cute"
+                  }
+                ],
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で",
+                "resolutionClass": "formation-dependent",
+                "evaluationMode": "resolve-from-formation",
+                "evaluationStatus": "not-evaluated",
+                "referenceState": "present"
+              },
+              "calculationStatus": "deferred"
+            }
+          ]
+        },
+        "active": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "coolTimeMillisecond": 20000,
+                "activationProbabilityPermilMultiply": 550,
+                "effectDurationMillisecond": 7000
+              },
+              "description": "20秒毎に高確率で7秒間スコアが95%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "950"
+                },
+                "description": "スコアが95%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "high",
+                "basis": "localized-description"
+              }
+            },
+            {
+              "level": 2,
+              "raw": {
+                "coolTimeMillisecond": 20000,
+                "activationProbabilityPermilMultiply": 550,
+                "effectDurationMillisecond": 7000
+              },
+              "description": "20秒毎に高確率で7秒間スコアが[highlight]115[/highlight]%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "1150"
+                },
+                "description": "スコアが115%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "high",
+                "basis": "localized-description"
+              }
+            }
+          ]
+        },
+        "special": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "effectDurationMillisecond": 14000
+              },
+              "description": "14秒間スコアサポート効果95%",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "950"
+                    },
+                    "description": "スコアサポート効果95%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            },
+            {
+              "level": 2,
+              "raw": {
+                "effectDurationMillisecond": 14000
+              },
+              "description": "14秒間スコアサポート効果[highlight]115[/highlight]%",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1150"
+                    },
+                    "description": "スコアサポート効果115%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            }
+          ]
+        }
+      },
+      "progression": {
+        "bloomSteps": [
+          {
+            "step": 1,
+            "effectType": "growth_activeLevel",
+            "value": "2"
+          },
+          {
+            "step": 2,
+            "effectType": "growth_allBoost",
+            "value": "100"
+          },
+          {
+            "step": 3,
+            "effectType": "growth_specialLevel",
+            "value": "2"
+          },
+          {
+            "step": 4,
+            "effectType": "growth_passiveLevel",
+            "value": "2"
+          },
+          {
+            "step": 5,
+            "effectType": "growth_connectLevel",
+            "value": "2"
+          }
+        ],
+        "trainingStages": [
+          {
+            "stage": 0,
+            "levelCap": 40
+          },
+          {
+            "stage": 1,
+            "levelCap": 50
+          },
+          {
+            "stage": 2,
+            "levelCap": 60
+          },
+          {
+            "stage": 3,
+            "levelCap": 70
+          },
+          {
+            "stage": 4,
+            "levelCap": 80
+          }
+        ],
+        "statSnapshots": [
+          {
+            "level": 40,
+            "raw": {
+              "parameterBaseValue": "13454"
+            }
+          },
+          {
+            "level": 50,
+            "raw": {
+              "parameterBaseValue": "15964"
+            }
+          },
+          {
+            "level": 60,
+            "raw": {
+              "parameterBaseValue": "18474"
+            }
+          },
+          {
+            "level": 70,
+            "raw": {
+              "parameterBaseValue": "20992"
+            }
+          },
+          {
+            "level": 80,
+            "raw": {
+              "parameterBaseValue": "23512"
+            }
+          }
+        ],
+        "parameterInputs": {
+          "performancePermilMultiply": 440,
+          "techniquePermilMultiply": 263,
+          "sensePermilMultiply": 297
         },
         "statStatus": "raw-inputs-only-formula-unresolved"
       }
@@ -44846,6 +46875,347 @@
           "performancePermilMultiply": 294,
           "techniquePermilMultiply": 400,
           "sensePermilMultiply": 306
+        },
+        "statStatus": "raw-inputs-only-formula-unresolved"
+      }
+    },
+    {
+      "id": "c0204",
+      "name": "風薫る♪銀杏並木のその先へ",
+      "member": {
+        "name": "パヴォリア・レイネ",
+        "mapping": {
+          "status": "candidate",
+          "id": "pavolia_reine",
+          "basis": "unique-exact-ja-name"
+        }
+      },
+      "classification": {
+        "rarity": {
+          "raw": "rarity5",
+          "mapping": {
+            "value": 5,
+            "status": "candidate"
+          }
+        },
+        "attributeType": {
+          "raw": "cute",
+          "mapping": {
+            "value": "cute",
+            "status": "candidate"
+          }
+        }
+      },
+      "skills": {
+        "passive": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {},
+              "description": "ID2期生2人のパフォーマンスが32%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_performanceBoost",
+                  "value": "320"
+                },
+                "description": "ID2期生2人のパフォーマンスが32%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_group",
+                    "targetCount": 2,
+                    "characterGroupingId": "g008"
+                  }
+                ],
+                "description": "ID2期生2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            },
+            {
+              "level": 2,
+              "raw": {},
+              "description": "ID2期生2人のパフォーマンスが[highlight]43[/highlight]%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_performanceBoost",
+                  "value": "430"
+                },
+                "description": "ID2期生2人のパフォーマンスが43%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_group",
+                    "targetCount": 2,
+                    "characterGroupingId": "g008"
+                  }
+                ],
+                "description": "ID2期生2人の"
+              },
+              "condition": {
+                "state": "unobserved",
+                "evaluationStatus": "unresolved",
+                "referenceState": "absent"
+              },
+              "calculationStatus": "deferred"
+            }
+          ]
+        },
+        "active": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "coolTimeMillisecond": 27000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 10000
+              },
+              "description": "27秒毎に中確率で10秒間スコアが95%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "950"
+                },
+                "description": "スコアが95%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            },
+            {
+              "level": 2,
+              "raw": {
+                "coolTimeMillisecond": 27000,
+                "activationProbabilityPermilMultiply": 460,
+                "effectDurationMillisecond": 10000
+              },
+              "description": "27秒毎に中確率で10秒間スコアが[highlight]115[/highlight]%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "1150"
+                },
+                "description": "スコアが115%UP"
+              },
+              "conditionalOverrides": [],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "mid",
+                "basis": "localized-description"
+              }
+            }
+          ]
+        },
+        "special": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "effectDurationMillisecond": 11000
+              },
+              "description": "11秒間スコアサポート効果110%\nID2期生が2人以上でスキル発動率が40%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1100"
+                    },
+                    "description": "スコアサポート効果110%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "400"
+                    },
+                    "description": "スキル発動率が40%UP"
+                  },
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_groupCount",
+                        "threshold": "2",
+                        "characterGroupingId": "g008"
+                      }
+                    ],
+                    "description": "ID2期生が2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            },
+            {
+              "level": 2,
+              "raw": {
+                "effectDurationMillisecond": 11000
+              },
+              "description": "11秒間スコアサポート効果[highlight]130[/highlight]%\nID2期生が2人以上でスキル発動率が[highlight]50[/highlight]%UP",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1300"
+                    },
+                    "description": "スコアサポート効果130%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                },
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_activationBoost",
+                      "value": "500"
+                    },
+                    "description": "スキル発動率が50%UP"
+                  },
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_groupCount",
+                        "threshold": "2",
+                        "characterGroupingId": "g008"
+                      }
+                    ],
+                    "description": "ID2期生が2人以上で",
+                    "resolutionClass": "formation-dependent",
+                    "evaluationMode": "resolve-from-formation",
+                    "evaluationStatus": "not-evaluated"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            }
+          ]
+        }
+      },
+      "progression": {
+        "bloomSteps": [
+          {
+            "step": 1,
+            "effectType": "growth_activeLevel",
+            "value": "2"
+          },
+          {
+            "step": 2,
+            "effectType": "growth_allBoost",
+            "value": "100"
+          },
+          {
+            "step": 3,
+            "effectType": "growth_specialLevel",
+            "value": "2"
+          },
+          {
+            "step": 4,
+            "effectType": "growth_passiveLevel",
+            "value": "2"
+          },
+          {
+            "step": 5,
+            "effectType": "growth_connectLevel",
+            "value": "2"
+          }
+        ],
+        "trainingStages": [
+          {
+            "stage": 0,
+            "levelCap": 40
+          },
+          {
+            "stage": 1,
+            "levelCap": 50
+          },
+          {
+            "stage": 2,
+            "levelCap": 60
+          },
+          {
+            "stage": 3,
+            "levelCap": 70
+          },
+          {
+            "stage": 4,
+            "levelCap": 80
+          }
+        ],
+        "statSnapshots": [
+          {
+            "level": 40,
+            "raw": {
+              "parameterBaseValue": "13483"
+            }
+          },
+          {
+            "level": 50,
+            "raw": {
+              "parameterBaseValue": "16002"
+            }
+          },
+          {
+            "level": 60,
+            "raw": {
+              "parameterBaseValue": "18522"
+            }
+          },
+          {
+            "level": 70,
+            "raw": {
+              "parameterBaseValue": "21042"
+            }
+          },
+          {
+            "level": 80,
+            "raw": {
+              "parameterBaseValue": "23562"
+            }
+          }
+        ],
+        "parameterInputs": {
+          "performancePermilMultiply": 430,
+          "techniquePermilMultiply": 268,
+          "sensePermilMultiply": 302
         },
         "statStatus": "raw-inputs-only-formula-unresolved"
       }
@@ -53580,6 +55950,369 @@
           "performancePermilMultiply": 278,
           "techniquePermilMultiply": 420,
           "sensePermilMultiply": 302
+        },
+        "statStatus": "raw-inputs-only-formula-unresolved"
+      }
+    },
+    {
+      "id": "c0207",
+      "name": "この手に希望を実らせて♪",
+      "member": {
+        "name": "IRyS",
+        "mapping": {
+          "status": "candidate",
+          "id": "irys",
+          "basis": "unique-exact-ja-name"
+        }
+      },
+      "classification": {
+        "rarity": {
+          "raw": "rarity5",
+          "mapping": {
+            "value": 5,
+            "status": "candidate"
+          }
+        },
+        "attributeType": {
+          "raw": "cute",
+          "mapping": {
+            "value": "cute",
+            "status": "candidate"
+          }
+        }
+      },
+      "skills": {
+        "passive": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {},
+              "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で[attribute=cute]キュートタイプ[/attribute]2人のパフォーマンスが32%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_performanceBoost",
+                  "value": "320"
+                },
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人のパフォーマンスが32%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "cute"
+                  }
+                ],
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "observed",
+                "clauses": [
+                  {
+                    "number": 1,
+                    "type": "condition_attributeCount",
+                    "threshold": "2",
+                    "cardAttributeType": "cute"
+                  }
+                ],
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で",
+                "resolutionClass": "formation-dependent",
+                "evaluationMode": "resolve-from-formation",
+                "evaluationStatus": "not-evaluated",
+                "referenceState": "present"
+              },
+              "calculationStatus": "deferred"
+            },
+            {
+              "level": 2,
+              "raw": {},
+              "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で[attribute=cute]キュートタイプ[/attribute]2人のパフォーマンスが[highlight]43[/highlight]%UP",
+              "effect": {
+                "raw": {
+                  "number": 1,
+                  "type": "passive_performanceBoost",
+                  "value": "430"
+                },
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人のパフォーマンスが43%UP"
+              },
+              "target": {
+                "selectors": [
+                  {
+                    "type": "target_attribute",
+                    "targetCount": 2,
+                    "cardAttributeType": "cute"
+                  }
+                ],
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人の"
+              },
+              "condition": {
+                "state": "observed",
+                "clauses": [
+                  {
+                    "number": 1,
+                    "type": "condition_attributeCount",
+                    "threshold": "2",
+                    "cardAttributeType": "cute"
+                  }
+                ],
+                "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で",
+                "resolutionClass": "formation-dependent",
+                "evaluationMode": "resolve-from-formation",
+                "evaluationStatus": "not-evaluated",
+                "referenceState": "present"
+              },
+              "calculationStatus": "deferred"
+            }
+          ]
+        },
+        "active": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "coolTimeMillisecond": 20000,
+                "activationProbabilityPermilMultiply": 550,
+                "effectDurationMillisecond": 7000
+              },
+              "description": "20秒毎に高確率で7秒間スコアが50%UP\nライフ600以上でスコアが100%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "500"
+                },
+                "description": "スコアが50%UP"
+              },
+              "conditionalOverrides": [
+                {
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_lifeThreshold",
+                        "threshold": "600"
+                      }
+                    ],
+                    "description": "ライフ600以上で",
+                    "resolutionClass": "player-state-dependent",
+                    "evaluationMode": "preserve-without-dynamic-simulation",
+                    "evaluationStatus": "not-evaluated"
+                  },
+                  "replacementEffect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_scoreBoost",
+                      "value": "1000"
+                    },
+                    "description": "スコアが100%UP"
+                  }
+                }
+              ],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "high",
+                "basis": "localized-description"
+              }
+            },
+            {
+              "level": 2,
+              "raw": {
+                "coolTimeMillisecond": 20000,
+                "activationProbabilityPermilMultiply": 550,
+                "effectDurationMillisecond": 7000
+              },
+              "description": "20秒毎に高確率で7秒間スコアが[highlight]60[/highlight]%UP\nライフ600以上でスコアが[highlight]120[/highlight]%UP",
+              "baseEffect": {
+                "raw": {
+                  "number": 1,
+                  "type": "active_scoreBoost",
+                  "value": "600"
+                },
+                "description": "スコアが60%UP"
+              },
+              "conditionalOverrides": [
+                {
+                  "condition": {
+                    "state": "observed",
+                    "clauses": [
+                      {
+                        "number": 1,
+                        "type": "condition_lifeThreshold",
+                        "threshold": "600"
+                      }
+                    ],
+                    "description": "ライフ600以上で",
+                    "resolutionClass": "player-state-dependent",
+                    "evaluationMode": "preserve-without-dynamic-simulation",
+                    "evaluationStatus": "not-evaluated"
+                  },
+                  "replacementEffect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_scoreBoost",
+                      "value": "1200"
+                    },
+                    "description": "スコアが120%UP"
+                  }
+                }
+              ],
+              "calculationStatus": "base-only",
+              "evaluationScope": "one-active-effect-select-base-or-matching-override",
+              "qualitativeProbability": {
+                "status": "candidate",
+                "value": "high",
+                "basis": "localized-description"
+              }
+            }
+          ]
+        },
+        "special": {
+          "levels": [
+            {
+              "level": 1,
+              "raw": {
+                "effectDurationMillisecond": 14000
+              },
+              "description": "14秒間スコアサポート効果95%",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "950"
+                    },
+                    "description": "スコアサポート効果95%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            },
+            {
+              "level": 2,
+              "raw": {
+                "effectDurationMillisecond": 14000
+              },
+              "description": "14秒間スコアサポート効果[highlight]115[/highlight]%",
+              "effects": [
+                {
+                  "effect": {
+                    "raw": {
+                      "number": 1,
+                      "type": "active_supportBoost",
+                      "value": "1150"
+                    },
+                    "description": "スコアサポート効果115%"
+                  },
+                  "condition": {
+                    "state": "unobserved",
+                    "evaluationStatus": "unresolved"
+                  }
+                }
+              ],
+              "durationScope": "unresolved-per-effect",
+              "calculationStatus": "display-only",
+              "effectCombination": "independent-effects"
+            }
+          ]
+        }
+      },
+      "progression": {
+        "bloomSteps": [
+          {
+            "step": 1,
+            "effectType": "growth_activeLevel",
+            "value": "2"
+          },
+          {
+            "step": 2,
+            "effectType": "growth_allBoost",
+            "value": "100"
+          },
+          {
+            "step": 3,
+            "effectType": "growth_specialLevel",
+            "value": "2"
+          },
+          {
+            "step": 4,
+            "effectType": "growth_passiveLevel",
+            "value": "2"
+          },
+          {
+            "step": 5,
+            "effectType": "growth_connectLevel",
+            "value": "2"
+          }
+        ],
+        "trainingStages": [
+          {
+            "stage": 0,
+            "levelCap": 40
+          },
+          {
+            "stage": 1,
+            "levelCap": 50
+          },
+          {
+            "stage": 2,
+            "levelCap": 60
+          },
+          {
+            "stage": 3,
+            "levelCap": 70
+          },
+          {
+            "stage": 4,
+            "levelCap": 80
+          }
+        ],
+        "statSnapshots": [
+          {
+            "level": 40,
+            "raw": {
+              "parameterBaseValue": "13568"
+            }
+          },
+          {
+            "level": 50,
+            "raw": {
+              "parameterBaseValue": "16098"
+            }
+          },
+          {
+            "level": 60,
+            "raw": {
+              "parameterBaseValue": "18630"
+            }
+          },
+          {
+            "level": 70,
+            "raw": {
+              "parameterBaseValue": "21170"
+            }
+          },
+          {
+            "level": 80,
+            "raw": {
+              "parameterBaseValue": "23710"
+            }
+          }
+        ],
+        "parameterInputs": {
+          "performancePermilMultiply": 400,
+          "techniquePermilMultiply": 294,
+          "sensePermilMultiply": 306
         },
         "statStatus": "raw-inputs-only-formula-unresolved"
       }

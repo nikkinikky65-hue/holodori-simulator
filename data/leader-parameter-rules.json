@@ -94,6 +94,43 @@
       ]
     },
     {
+      "id": "l208",
+      "cardId": "c0205",
+      "name": "ロボ子さん / 高性能なボクと紅葉デート",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
       "id": "l161",
       "cardId": "c0073",
       "name": "アキ・ローゼンタール / 歌うcuriousハーフエルフ",
@@ -1024,6 +1061,29 @@
       ]
     },
     {
+      "id": "l209",
+      "cardId": "c0209",
+      "name": "兎田ぺこら / ご機嫌ステップでおめかし散歩",
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "pure",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ピュアタイプ2人以上"
+          },
+          "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP"
+        }
+      ]
+    },
+    {
       "id": "l148",
       "cardId": "c0174",
       "name": "不知火フレア / ダンスから伝わる気遣い",
@@ -1623,6 +1683,29 @@
       ]
     },
     {
+      "id": "l204",
+      "cardId": "c0208",
+      "name": "桃鈴ねね / ビタミンカラーの落ち葉シャワー",
+      "description": "5期生が2人以上で全員のテクニックが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "T",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g002",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "5期生が2人以上"
+          },
+          "description": "5期生が2人以上で全員のテクニックが135%UP"
+        }
+      ]
+    },
+    {
       "id": "l164",
       "cardId": "c0111",
       "name": "獅白ぼたん / 魅せるLaughing Lion",
@@ -2116,6 +2199,29 @@
       ]
     },
     {
+      "id": "l203",
+      "cardId": "c0203",
+      "name": "アユンダ・リス / うとうと気分で身支度を",
+      "description": "ID1期生が2人以上で全員のセンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "S",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g006",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ID1期生が2人以上"
+          },
+          "description": "ID1期生が2人以上で全員のセンスが135%UP"
+        }
+      ]
+    },
+    {
       "id": "l086",
       "cardId": "c0048",
       "name": "ムーナ・ホシノヴァ / 月のヒカリに溶けこむ歌声",
@@ -2162,6 +2268,43 @@
       ]
     },
     {
+      "id": "l202",
+      "cardId": "c0206",
+      "name": "ムーナ・ホシノヴァ / 星瞬く夜、ゆったりバスタイム",
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 80,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+        },
+        {
+          "parameter": "score_support",
+          "percent": 25,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "happy",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ハッピータイプ2人以上"
+          },
+          "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+        }
+      ]
+    },
+    {
       "id": "l113",
       "cardId": "c0038",
       "name": "アイラニ・イオフィフティーン / 麗らかなStage View",
@@ -2204,6 +2347,29 @@
             "text": "ピュアタイプ2人以上"
           },
           "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のテクニックが130%UP"
+        }
+      ]
+    },
+    {
+      "id": "l206",
+      "cardId": "c0202",
+      "name": "アイラニ・イオフィフティーン / 陽だまりぽかぽかスマイル",
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 130,
+          "target": "all_members",
+          "condition": {
+            "type": "attribute_count",
+            "attribute": "cute",
+            "affiliationId": null,
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "キュートタイプ2人以上"
+          },
+          "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
         }
       ]
     },
@@ -2402,6 +2568,29 @@
             "text": null
           },
           "description": "全員のスコアサポート効果60%"
+        }
+      ]
+    },
+    {
+      "id": "l205",
+      "cardId": "c0204",
+      "name": "パヴォリア・レイネ / 風薫る♪銀杏並木のその先へ",
+      "description": "ID2期生が2人以上で全員のパフォーマンスが135%UP",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "P",
+          "percent": 135,
+          "target": "all_members",
+          "condition": {
+            "type": "affiliation_count",
+            "attribute": null,
+            "affiliationId": "g008",
+            "requiredCount": 2,
+            "hasReference": true,
+            "text": "ID2期生が2人以上"
+          },
+          "description": "ID2期生が2人以上で全員のパフォーマンスが135%UP"
         }
       ]
     },
@@ -2853,6 +3042,29 @@
             "text": "Promiseが2人以上"
           },
           "description": "Promiseが2人以上で全員の全パラメータが50%UP"
+        }
+      ]
+    },
+    {
+      "id": "l207",
+      "cardId": "c0207",
+      "name": "IRyS / この手に希望を実らせて♪",
+      "description": "全員のスコアサポート効果60%",
+      "kind": "card",
+      "effects": [
+        {
+          "parameter": "score_support",
+          "percent": 60,
+          "target": "all_members",
+          "condition": {
+            "type": "not_stated",
+            "attribute": null,
+            "affiliationId": null,
+            "requiredCount": null,
+            "hasReference": false,
+            "text": null
+          },
+          "description": "全員のスコアサポート効果60%"
         }
       ]
     },
@@ -4595,5 +4807,5 @@
       ]
     }
   ],
-  "publicVersion": "public-3e16356b1b44e673b760"
+  "publicVersion": "public-96ef873677838402eb1b"
 }

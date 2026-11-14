@@ -1,7 +1,7 @@
 {
   "format": "holodori-leader-catalog-v1",
   "dataset": {
-    "publicVersion": "public-3e16356b1b44e673b760"
+    "publicVersion": "public-96ef873677838402eb1b"
   },
   "cardSkills": [
     {
@@ -83,6 +83,33 @@
         ]
       },
       "cardId": "c0096"
+    },
+    {
+      "skillId": "l208",
+      "costumeName": "パフィーチェック",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが80%UP\n[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 80,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0205"
     },
     {
       "skillId": "l161",
@@ -873,6 +900,26 @@
       "cardId": "c0121"
     },
     {
+      "skillId": "l209",
+      "costumeName": "ドーリーブラックフリル",
+      "name": null,
+      "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 130,
+            "conditionText": "ピュアタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=pure]ピュアタイプ[/attribute]2人以上で全員のセンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0209"
+    },
+    {
       "skillId": "l148",
       "costumeName": "ドリーミードロップ",
       "name": null,
@@ -1368,6 +1415,26 @@
       "cardId": "c0002"
     },
     {
+      "skillId": "l204",
+      "costumeName": "Go-Out Energy",
+      "name": null,
+      "description": "5期生が2人以上で全員のテクニックが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "テクニックUP",
+        "effects": [
+          {
+            "label": "テクニックUP",
+            "amountPercent": 135,
+            "conditionText": "5期生が2人以上",
+            "targetText": "全員",
+            "description": "5期生が2人以上で全員のテクニックが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0208"
+    },
+    {
       "skillId": "l164",
       "costumeName": "ドリーミードロップ",
       "name": null,
@@ -1776,6 +1843,26 @@
       "cardId": "c0053"
     },
     {
+      "skillId": "l203",
+      "costumeName": "まどろみエイコーン",
+      "name": null,
+      "description": "ID1期生が2人以上で全員のセンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "センスUP",
+        "effects": [
+          {
+            "label": "センスUP",
+            "amountPercent": 135,
+            "conditionText": "ID1期生が2人以上",
+            "targetText": "全員",
+            "description": "ID1期生が2人以上で全員のセンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0203"
+    },
+    {
       "skillId": "l086",
       "costumeName": "ドリーミードロップ",
       "name": null,
@@ -1816,6 +1903,33 @@
       "cardId": "c0139"
     },
     {
+      "skillId": "l202",
+      "costumeName": "くつろぎスターリー",
+      "name": null,
+      "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが80%UP\n[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%",
+      "presentation": {
+        "status": "classified",
+        "category": "複合効果",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 80,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のパフォーマンスが80%UP"
+          },
+          {
+            "label": "スコアサポート",
+            "amountPercent": 25,
+            "conditionText": "ハッピータイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=happy]ハッピータイプ[/attribute]2人以上で全員のスコアサポート効果25%"
+          }
+        ]
+      },
+      "cardId": "c0206"
+    },
+    {
       "skillId": "l113",
       "costumeName": "ドリーミードロップ",
       "name": null,
@@ -1854,6 +1968,26 @@
         ]
       },
       "cardId": "c0133"
+    },
+    {
+      "skillId": "l206",
+      "costumeName": "うたたねサンリット",
+      "name": null,
+      "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 130,
+            "conditionText": "キュートタイプ2人以上",
+            "targetText": "全員",
+            "description": "[attribute=cute]キュートタイプ[/attribute]2人以上で全員のパフォーマンスが130%UP"
+          }
+        ]
+      },
+      "cardId": "c0202"
     },
     {
       "skillId": "l069",
@@ -2021,6 +2155,26 @@
         ]
       },
       "cardId": "c0154"
+    },
+    {
+      "skillId": "l205",
+      "costumeName": "ビビッドpeafowl",
+      "name": null,
+      "description": "ID2期生が2人以上で全員のパフォーマンスが135%UP",
+      "presentation": {
+        "status": "classified",
+        "category": "パフォーマンスUP",
+        "effects": [
+          {
+            "label": "パフォーマンスUP",
+            "amountPercent": 135,
+            "conditionText": "ID2期生が2人以上",
+            "targetText": "全員",
+            "description": "ID2期生が2人以上で全員のパフォーマンスが135%UP"
+          }
+        ]
+      },
+      "cardId": "c0204"
     },
     {
       "skillId": "l105",
@@ -2408,6 +2562,26 @@
         ]
       },
       "cardId": "c0001"
+    },
+    {
+      "skillId": "l207",
+      "costumeName": "ガーリッシュクラシック",
+      "name": null,
+      "description": "全員のスコアサポート効果60%",
+      "presentation": {
+        "status": "classified",
+        "category": "スコアサポート",
+        "effects": [
+          {
+            "label": "スコアサポート",
+            "amountPercent": 60,
+            "conditionText": null,
+            "targetText": "全員",
+            "description": "全員のスコアサポート効果60%"
+          }
+        ]
+      },
+      "cardId": "c0207"
     },
     {
       "skillId": "l054",
